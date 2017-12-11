@@ -1,1 +1,5 @@
 该源码研究学习交流QQ群 434554944
+CFAgent工程：
+使用DLL，导出C接口，在本地绑定一个端口，去连接服务器，通过自定义结构体消息实现坐席的功能。socket和thread使用了MFC基础类库。
+CFComm, com上导出 tcp 发送和接收接口。
+CFCTI,和CFAgent一样，多了几个接口
