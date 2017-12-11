@@ -1,0 +1,262 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CFCTI - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/CFCTI.res" /d "NDEBUG" /d "_AFXDLL" "D:\程序文件\vc6版本\CFCTI\CFCTI.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP96.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/CFCTI.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\CFCTI\CfcQueue.cpp"
+"D:\程序文件\vc6版本\CFCTI\CfcSocket.cpp"
+"D:\程序文件\vc6版本\CFCTI\CFCTI.cpp"
+"D:\程序文件\vc6版本\CFCTI\ClientSocket.cpp"
+"D:\程序文件\vc6版本\CFCTI\MsqDowith.cpp"
+"D:\程序文件\vc6版本\CFCTI\OneCallCTIDLL.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP96.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP97.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/CFCTI.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\CFCTI\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP97.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/CFCTI.pdb" /machine:I386 /def:".\CFCTI.def" /out:"../bin/CFCTI.dll" /implib:"../bin/CFCTI.lib" 
+".\Release\CfcQueue.obj"
+".\Release\CfcSocket.obj"
+".\Release\CFCTI.obj"
+".\Release\ClientSocket.obj"
+".\Release\MsqDowith.obj"
+".\Release\OneCallCTIDLL.obj"
+".\Release\StdAfx.obj"
+".\Release\CFCTI.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CfcQueue.cpp
+CfcSocket.cpp
+CFCTI.cpp
+ClientSocket.cpp
+MsqDowith.cpp
+OneCallCTIDLL.cpp
+Generating Code...
+Linking...
+   Creating library ../bin/CFCTI.lib and object ../bin/CFCTI.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.bat" with contents
+[
+@echo off
+copy                                     OneCallCTIDLL.h                                      ..\include\
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9C.bat"
+
+已复制         1 个文件。
+<h3>
+--------------------Configuration: ChiefScriptNode - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ChiefScriptNode.res" /d "NDEBUG" /d "_AFXDLL" "D:\程序文件\vc6版本\ChiefScriptNode\ChiefScriptNode.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/ChiefScriptNode.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefScriptNode\CFDocument.cpp"
+"D:\程序文件\vc6版本\ChiefScriptNode\CFVariable.cpp"
+"D:\程序文件\vc6版本\ChiefScriptNode\ChiefScriptNode.cpp"
+"D:\程序文件\vc6版本\ChiefScriptNode\LineObj.cpp"
+"D:\程序文件\vc6版本\ChiefScriptNode\NextNode.cpp"
+"D:\程序文件\vc6版本\ChiefScriptNode\NodeData.cpp"
+"D:\程序文件\vc6版本\ChiefScriptNode\NodeObj.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/ChiefScriptNode.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefScriptNode\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9F.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/ChiefScriptNode.pdb" /machine:I386 /def:".\ChiefScriptNode.def" /out:"../bin/ChiefScriptNode.dll" /implib:"../bin/ChiefScriptNode.lib" 
+".\Release\CFDocument.obj"
+".\Release\CFVariable.obj"
+".\Release\ChiefScriptNode.obj"
+".\Release\LineObj.obj"
+".\Release\NextNode.obj"
+".\Release\NodeData.obj"
+".\Release\NodeObj.obj"
+".\Release\StdAfx.obj"
+".\Release\ChiefScriptNode.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP9F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CFDocument.cpp
+CFVariable.cpp
+ChiefScriptNode.cpp
+LineObj.cpp
+NextNode.cpp
+NodeData.cpp
+NodeObj.cpp
+Generating Code...
+Linking...
+   Creating library ../bin/ChiefScriptNode.lib and object ../bin/ChiefScriptNode.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA3.bat" with contents
+[
+@echo off
+copy                                 NodeObj.h                                   ..\include\
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA3.bat"
+
+已复制         1 个文件。
+<h3>
+--------------------Configuration: ChiefIVR - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ChiefIVR.res" /d "NDEBUG" /d "_AFXDLL" "D:\程序文件\vc6版本\ChiefIVR\ChiefIVR.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ChiefIVR.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefIVR\AddSysScriptFileDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\CalculateExpress.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\CFCHH.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\ChannelForm.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\ChiefIVR.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\ChiefIVRView.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\CIFVipCallSetDoc.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\D08A.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\DJSS17.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\DJTc08a32.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\FChannelInfo.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\MainFrm.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NewDBConnVar.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NewEndCallBlockObj.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NewModuleObj.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NewRecordsetVar.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NewSQLExcuteObj.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NewStoreProObj.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NormalScriptInfo.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\NorMarch32.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\ProgressDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\PublicCardObj.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\SelectChannelDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\SelectTreeForm.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\SysmsgForm.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\SystemErrorLogFile.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\TMS8E240.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\Trayicon.cpp"
+"D:\程序文件\vc6版本\ChiefIVR\UpdateChannelDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ChiefIVR.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefIVR\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA6.tmp" with contents
+[
+../bin/ChiefScriptNode.lib ../bin/CFCTI.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ChiefIVR.pdb" /machine:I386 /out:"../bin/ChiefIVR.exe" 
+".\Release\AddSysScriptFileDlg.obj"
+".\Release\CalculateExpress.obj"
+".\Release\CFCHH.obj"
+".\Release\ChannelForm.obj"
+".\Release\ChiefIVR.obj"
+".\Release\ChiefIVRView.obj"
+".\Release\CIFVipCallSetDoc.obj"
+".\Release\D08A.obj"
+".\Release\DJSS17.obj"
+".\Release\DJTc08a32.obj"
+".\Release\FChannelInfo.obj"
+".\Release\MainFrm.obj"
+".\Release\NewDBConnVar.obj"
+".\Release\NewEndCallBlockObj.obj"
+".\Release\NewModuleObj.obj"
+".\Release\NewRecordsetVar.obj"
+".\Release\NewSQLExcuteObj.obj"
+".\Release\NewStoreProObj.obj"
+".\Release\NormalScriptInfo.obj"
+".\Release\NorMarch32.obj"
+".\Release\ProgressDlg.obj"
+".\Release\PublicCardObj.obj"
+".\Release\SelectChannelDlg.obj"
+".\Release\SelectTreeForm.obj"
+".\Release\StdAfx.obj"
+".\Release\SysmsgForm.obj"
+".\Release\SystemErrorLogFile.obj"
+".\Release\TMS8E240.obj"
+".\Release\Trayicon.obj"
+".\Release\UpdateChannelDlg.obj"
+".\Release\ChiefIVR.res"
+"..\lib\PCICARD.lib"
+"..\lib\TcNo7.lib"
+"..\lib\Tce1_32.lib"
+"..\lib\NewSig.lib"
+"..\lib\Tc08a32.lib"
+"..\lib\TCISUP.lib"
+"..\lib\TC_ISDN.lib"
+".\sense4.lib"
+"..\lib\DJ_TIF.lib"
+"..\lib\Phonic.lib"
+"\程序文件\vc6版本\bin\CFCTI.lib"
+"\程序文件\vc6版本\bin\ChiefScriptNode.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+d:\程序文件\vc6版本\chiefivr\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Compiling...
+AddSysScriptFileDlg.cpp
+CalculateExpress.cpp
+CFCHH.cpp
+ChannelForm.cpp
+ChiefIVR.cpp
+ChiefIVRView.cpp
+CIFVipCallSetDoc.cpp
+D08A.cpp
+DJSS17.cpp
+DJTc08a32.cpp
+FChannelInfo.cpp
+MainFrm.cpp
+NewDBConnVar.cpp
+NewEndCallBlockObj.cpp
+NewModuleObj.cpp
+NewRecordsetVar.cpp
+NewSQLExcuteObj.cpp
+NewStoreProObj.cpp
+NormalScriptInfo.cpp
+NorMarch32.cpp
+Generating Code...
+Compiling...
+ProgressDlg.cpp
+PublicCardObj.cpp
+SelectChannelDlg.cpp
+SelectTreeForm.cpp
+SysmsgForm.cpp
+SystemErrorLogFile.cpp
+TMS8E240.cpp
+Trayicon.cpp
+UpdateChannelDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "NewSig.DLL" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+ChiefIVR.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

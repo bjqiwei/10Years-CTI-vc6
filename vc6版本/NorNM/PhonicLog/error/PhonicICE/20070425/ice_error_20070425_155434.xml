@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- Phonic XML File -->
+<PhonicICE datetime="2007-04-25 15:54:34">
+<error sn="1"><datetime>2007.04.25 15:54:34:0750</datetime>
+<invoke name="put_writer" datetime="2007.04.25 15:54:34:0750"><object name="CICEVoiceRecordFileModule" ></object>
+<IDO>PEMSG_VOICE_RECORD_REQ<filename>c:\20070425155426.wav</filename>
+<offset>-1</offset>
+<size>0</size>
+</IDO>
+</invoke>
+<cause>channel is busy!</cause>
+<current_task><filename>c:\test32.wav</filename>
+<offset>1999258</offset>
+<size>0</size>
+</current_task>
+</error>
+</PhonicICE>

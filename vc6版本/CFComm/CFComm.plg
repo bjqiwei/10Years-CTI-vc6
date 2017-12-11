@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CFComm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/CFComm.res" /d "NDEBUG" /d "_AFXDLL" "G:\vc6版本\CFComm\CFComm.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/CFComm.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\vc6版本\CFComm\CFComm.cpp"
+"G:\vc6版本\CFComm\CfcQueue.cpp"
+"G:\vc6版本\CFComm\CfcSocket.cpp"
+"G:\vc6版本\CFComm\ClientSocket.cpp"
+"G:\vc6版本\CFComm\iCfcComm.cpp"
+"G:\vc6版本\CFComm\MsqDowith.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/CFComm.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\vc6版本\CFComm\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/CFComm.pdb" /machine:I386 /def:".\CFComm.def" /out:"../bin/CFComm.dll" /implib:"../bin/CFComm.lib" 
+".\Release\CFComm.obj"
+".\Release\CfcQueue.obj"
+".\Release\CfcSocket.obj"
+".\Release\ClientSocket.obj"
+".\Release\iCfcComm.obj"
+".\Release\MsqDowith.obj"
+".\Release\StdAfx.obj"
+".\Release\CFComm.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CFComm.cpp
+CfcQueue.cpp
+CfcSocket.cpp
+ClientSocket.cpp
+iCfcComm.cpp
+MsqDowith.cpp
+Generating Code...
+Linking...
+   Creating library ../bin/CFComm.lib and object ../bin/CFComm.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.bat" with contents
+[
+@echo off
+copy                                iCfcComm.h                                 ..\include\
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+CFComm.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

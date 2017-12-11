@@ -1,0 +1,93 @@
+[Root]
+Most Recent Package=Standard
+
+
+[Package|Standard|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\程序文件\vc6版本\VBNorAgentTest\Package
+
+[Package|Standard|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard|Files Found]
+
+[Package|Standard|Files Released]
+
+[Package|Standard|Missing Dependency Information]
+D:\程序文件\vc6版本\NorAgent\Release\NorAgent.ocx=
+C:\WINNT\system32\NorAgent.ocx=
+
+[Package|Standard|Out-of-Date Dependency Information]
+
+[Package|Standard|Files Added]
+
+[Package|Standard|Files Removed]
+
+[Package|Standard|Files In Project]
+D:\程序文件\vc6版本\VBNorAgentTest\NorthMarchAgent.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\NorAgent.ocx=Yes
+
+[Package|Standard|Configure Registry Files]
+Applicable=No
+
+[Package|Standard|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard|Install Locations]
+D:\程序文件\vc6版本\VBNorAgentTest\NorthMarchAgent.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\程序文件\vc6版本\NorAgent\Release\NorAgent.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\NorAgent.ocx=$(WinSysPath)
+
+[Package|Standard|Configure Shared Files]
+Applicable=Yes
+D:\程序文件\vc6版本\VBNorAgentTest\NorthMarchAgent.exe=Yes
+
+[Package|Standard|Distribution]
+Type=single
+Size=
+Title=NorthMarchAgent
+
+[Package|Standard|Package]
+PackageFolder=D:\程序文件\vc6版本\VBNorAgentTest\Package
+ProjectFolder=D:\程序文件\vc6版本\VBNorAgentTest
+ServerSideCab=
+File1=D:\程序文件\vc6版本\VBNorAgentTest\Package\setup.exe
+File2=D:\程序文件\vc6版本\VBNorAgentTest\Package\Setup.Lst
+File3=D:\程序文件\vc6版本\VBNorAgentTest\Package\NorthMarchAgent.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard|IconGroups]
+Group0=NorthMarchAgent
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard|NorthMarchAgent]
+Icon1=NorthMarchAgent.exe
+Title1=NorthMarchAgent
+StartIn1=$(AppPath)
+Key1=Icon1

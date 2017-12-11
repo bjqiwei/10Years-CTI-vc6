@@ -1,0 +1,89 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "CFCTI"="..\CFCTI\CFCTI.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ChiefIVR"=".\ChiefIVR.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name CFCTI
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ChiefScriptNode
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ChiefIVRScripted"="..\ChiefIVRScripted\ChiefIVRScripted.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ChiefScriptNode
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ChiefTabCtrlBar
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ChiefScriptNode"="..\ChiefScriptNode\ChiefScriptNode.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ChiefTabCtrlBar"="..\ChiefTabCtrlBar\ChiefTabCtrlBar.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

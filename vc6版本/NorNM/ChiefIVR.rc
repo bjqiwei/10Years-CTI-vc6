@@ -1,0 +1,670 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ChiefIVR.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ChiefIVR.ico"
+IDR_CHIEFITYPE          ICON    DISCARDABLE     "res\\ChiefIVRDoc.ico"
+IDI_ICON_ABOUT          ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "about2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_SYS_RUN
+    BUTTON      ID_SYS_HANGUP
+    BUTTON      ID_SYS_STOP
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "Run",                         ID_SYS_RUN
+        MENUITEM "HangUp",                      ID_SYS_HANGUP
+        MENUITEM "Stop",                        ID_SYS_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Tool(&T)"
+    BEGIN
+        POPUP "System Script Config"
+        BEGIN
+            MENUITEM "Add System Script",           ID_ADD_SYSSCRIPT
+            MENUITEM "Del System Script",           ID_DEL_SYSSCRIPT
+            MENUITEM "Save System Script",          ID_SAVE_SYSSCRIPT
+        END
+        POPUP "Normal Script Config"
+        BEGIN
+            MENUITEM "Add Normal Script",           ID_ADD_NORSCRIPT
+            MENUITEM "Del Normal Script",           ID_DEL_NORSCRIPT
+            MENUITEM "Save Normal Script",          ID_SAVE_NORSCRIPT
+        END
+        POPUP "Channel Config"
+        BEGIN
+            MENUITEM "Select All Channel",          ID_SELECT_ALL_CHANNEL
+            MENUITEM "Cancel Select Channel",       ID_CANCEL_SELECT_CHANNEL
+            MENUITEM "Select Channel",              ID_SELECT_CHANNEL
+            MENUITEM "Reverse Select Channel",      ID_REVERSE_SELECT_CHANNEL
+
+            MENUITEM "Update Channel",              ID_UPDATE_SELECT_CHANNEL
+            MENUITEM "Reload Channel Script",       ID_RELOAD_CHANNEL_SCRIPT
+        END
+        MENUITEM "Auto Check",                  ID_AUTO_CHECK
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Tool Bar(&T)",                ID_VIEW_TOOLBAR
+        MENUITEM "Status Bar(&S)",              ID_VIEW_STATUS_BAR
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "About NortMarch CIF-Studio (&A)...", ID_APP_ABOUT
+    END
+END
+
+IDR_TRAYICON MENU DISCARDABLE 
+BEGIN
+    POPUP "Tray"
+    BEGIN
+        MENUITEM "Show",                        ID_APP_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Run",                         IDR_MENU_RUN
+        MENUITEM "Hangup",                      IDR_MENU_HANGUP
+        MENUITEM "Stop",                        IDR_MENU_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        IDR_MENU_EXIT
+    END
+END
+
+IDR_POPTOOL MENU DISCARDABLE 
+BEGIN
+    POPUP "Normal Script"
+    BEGIN
+        MENUITEM "Add Normal Script",           ID_ADD_NORSCRIPT
+        MENUITEM "Del Normal Script",           ID_DEL_NORSCRIPT
+        MENUITEM "Save Normal Script",          ID_SAVE_NORSCRIPT
+    END
+    POPUP "SysScript"
+    BEGIN
+        MENUITEM "Add System Script",           ID_ADD_SYSSCRIPT
+        MENUITEM "Del System Script",           ID_DEL_SYSSCRIPT
+        MENUITEM "Save System Script",          ID_SAVE_SYSSCRIPT
+    END
+    POPUP "Config"
+    BEGIN
+        MENUITEM "Select All Channel",          ID_SELECT_ALL_CHANNEL
+        MENUITEM "Cancel Select Channel",       ID_CANCEL_SELECT_CHANNEL
+        MENUITEM "Select Channel",              ID_SELECT_CHANNEL
+        MENUITEM "Reverse Select Channel",      ID_REVERSE_SELECT_CHANNEL
+        MENUITEM "Update Channel",              ID_UPDATE_SELECT_CHANNEL
+        MENUITEM "Reload Channel Script",       ID_RELOAD_CHANNEL_SCRIPT
+        MENUITEM "Save Channel Config",         ID_SAVE_CHANNEL_CONFIG
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 358, 255
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About NortMarch CIF-Studio IVR Script Excute "
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         151,IDC_STATIC,"Static",SS_BITMAP,7,7,120,58
+    LTEXT           "NorthMarch CIF-Studio Scrtip Excute",IDC_STATIC,123,11,
+                    141,8
+    LTEXT           "Copyright? NorthMarch Corporation",IDC_STATIC,124,24,
+                    133,8
+    GROUPBOX        "This proudct is licensed to:",IDC_STATIC,7,50,275,63
+    EDITTEXT        IDC_EDIT_LICENCE,17,66,258,39,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,284,14,67,20
+    GROUPBOX        "Additional information:",IDC_STATIC,7,118,275,66
+    EDITTEXT        IDC_EDIT_ADDATION,17,136,258,39,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+    LTEXT           "www.normarch.com www.northmarch.cn",IDC_STATIC,123,36,
+                    137,8
+    EDITTEXT        IDC_EDIT_WARNING,7,189,275,54,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+END
+
+IDD_CHANNEL_FORM DIALOG DISCARDABLE  0, 0, 279, 341
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Channel Message:",IDC_STATIC_TITLE,1,1,252,8
+    CONTROL         "List1",IDC_LIST_CHANNEL,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,5,17,218,52
+    CONTROL         "List1",IDC_LIST_TCPIP,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,3,87,230,33
+    CONTROL         "List1",IDC_LIST_SCRIPT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,3,137,230,28
+    LISTBOX         IDC_LIST_COMMLIST,6,180,225,24,NOT LBS_NOTIFY | 
+                    WS_VSCROLL
+    CONTROL         "List1",IDC_LIST_FAX,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,209,230,28
+    CONTROL         "List1",IDC_LIST_CONFER,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,8,249,230,28
+    CONTROL         "List1",IDC_LIST_NORMALSCRIPT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,9,290,230,28
+END
+
+IDD_SYSMSG_FORM DIALOG DISCARDABLE  0, 0, 231, 228
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "System Message:",IDC_STATIC,2,1,61,8
+    LISTBOX         IDC_LIST_SYSTEM,4,17,213,197,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+END
+
+IDD_TREE_FORM DIALOG DISCARDABLE  0, 0, 245, 207
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_SELECT,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,16,20,172,158
+END
+
+IDD_SYSSCRIPT_DLG DIALOG DISCARDABLE  0, 0, 273, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Script"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,146,63,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,207,63,50,14
+    LTEXT           "Remark",IDC_STATIC,14,41,25,8
+    LTEXT           "Scrtip File",IDC_STATIC,13,20,45,8
+    EDITTEXT        IDC_EDIT_REMARK,63,37,190,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FILE,64,18,175,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_FILE,240,17,13,14
+    GROUPBOX        "",IDC_STATIC,7,7,250,51
+END
+
+IDD_DIALOG_SELCETCHANNEL DIALOG DISCARDABLE  0, 0, 178, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Channel"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,70,59,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,121,59,50,14
+    LTEXT           "Channel Type",IDC_STATIC,7,7,46,8
+    LTEXT           "Begin NO.",IDC_STATIC,7,25,34,8
+    LTEXT           "End NO.",IDC_STATIC,7,42,28,8
+    EDITTEXT        IDC_EDIT_BEGINNO,56,25,111,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_CHNLTYPE,56,7,111,146,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_ENDNO,56,40,111,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_UPDATECHNL DIALOG DISCARDABLE  0, 0, 209, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,121,81,38,12
+    PUSHBUTTON      "Cancel",IDCANCEL,165,81,38,12
+    CONTROL         "Update Channel Type To",IDC_CHECK_UPDATE_TYPE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,6,104,10
+    CONTROL         "Update LocalDN To",IDC_CHECK_UPDATE_CALLEDID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,25,84,10
+    CONTROL         "Update ScriptFile To",IDC_CHECK_UPDATE_SCRIPTFILE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,41,96,10
+    COMBOBOX        IDC_COMBO_CHNLTYPE,124,5,78,124,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CALLEDID,123,25,79,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SCRIPTFILE,7,52,184,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FILE,190,53,12,12
+END
+
+IDD_DIALOG_PROGRESS DIALOG DISCARDABLE  0, 0, 234, 79
+STYLE DS_MODALFRAME | DS_CENTER | WS_CAPTION
+CAPTION "Please wait for ...................."
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,30,220,15
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "警告:1、本计算机程序受著作权法和国际公约的保护，未经授权擅自复制或传播本程序的部分或全部，可能受到严厉的民事及刑事\r\n制裁，并将在法律许可的范围内受到最大可能的起诉。\r\n     2、获得授权使用本程序的公司或个人必须遵守相关协议。\0"
+            VALUE "CompanyName", "版权所有 蒋瑞泽 不得非法复制以及使用 技术支持电话13910016198\0"
+            VALUE "FileDescription", "CIF Studio IVR Excute\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ChiefIVR\0"
+            VALUE "LegalCopyright", "版权所有 蒋瑞泽 不得非法复制以及使用 技术支持电话13910016198\0"
+            VALUE "LegalTrademarks", "版权所有 蒋瑞泽 不得非法复制以及使用 技术支持电话13910016198\0"
+            VALUE "OriginalFilename", "ChiefIVR.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CIF Studio IVR Excute\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 351
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_SYSSCRIPT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_DIALOG_SELCETCHANNEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_DIALOG_UPDATECHNL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_DIALOG_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_SELCETCHANNEL DLGINIT
+BEGIN
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x4d45, 0x5450, 0x0059, 
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x4f4e, 0x0031, 
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x4f4e, 0x0037, 
+    IDC_COMBO_CHNLTYPE, 0x403, 17, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x5344, 0x3153, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 20, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x4f4e, 0x4937, 0x5553, 
+0x0050, 
+    IDC_COMBO_CHNLTYPE, 0x403, 15, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x544d, 0x3350, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5254, 0x4e55, 0x004b, 
+    IDC_COMBO_CHNLTYPE, 0x403, 15, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5355, 0x5245, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 17, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x4552, 0x4f43, 0x4452, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 14, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x4956, 0x0050, 
+    IDC_COMBO_CHNLTYPE, 0x403, 10, 0
+0x6f4e, 0x5320, 0x6c65, 0x6365, 0x0074, 
+    0
+END
+
+IDD_DIALOG_UPDATECHNL DLGINIT
+BEGIN
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x4d45, 0x5450, 0x0059, 
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x4f4e, 0x0031, 
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x4f4e, 0x0037, 
+    IDC_COMBO_CHNLTYPE, 0x403, 17, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x5344, 0x3153, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 20, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5444, 0x4f4e, 0x4937, 0x5553, 
+0x0050, 
+    IDC_COMBO_CHNLTYPE, 0x403, 15, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x544d, 0x3350, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 16, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5254, 0x4e55, 0x004b, 
+    IDC_COMBO_CHNLTYPE, 0x403, 15, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x5355, 0x5245, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 17, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x4552, 0x4f43, 0x4452, "\000" 
+    IDC_COMBO_CHNLTYPE, 0x403, 14, 0
+0x4643, 0x435f, 0x5448, 0x5059, 0x5f45, 0x4956, 0x0050, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "OLE initialize  fail"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "ChiefIVR\n\nChiefI\n\n\nChiefIVR.Document\nChiefI Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ChiefIVR"
+    AFX_IDS_IDLEMESSAGE     "System is runing"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "new document\nNew"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+    ID_INDICATOR_PROGRESS   "                                                                                                                                             "
+    ID_INDICATOR_RUNSTATE   "                                                     "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SYS_RUN              "Chief IVR Run "
+    ID_SYS_STOP             "Chief IVR Stop"
+    ID_ADD_SYSSCRIPT        "Add system script file"
+    ID_DEL_SYSSCRIPT        "Delete system script file"
+    ID_SAVE_SYSSCRIPT       "Save Normal Script file"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ADD_NORSCRIPT        "Add Normal Script file"
+    ID_DEL_NORSCRIPT        "del Normal Script file"
+    ID_SAVE_NORSCRIPT       "Save Normal Script file"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ChiefIVR.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

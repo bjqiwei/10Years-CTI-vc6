@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChiefScriptNode - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP240.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /Fp"Release/ChiefScriptNode.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\vc6版本\ChiefScriptNode\CFDocument.cpp"
+"G:\vc6版本\ChiefScriptNode\CFVariable.cpp"
+"G:\vc6版本\ChiefScriptNode\LineObj.cpp"
+"G:\vc6版本\ChiefScriptNode\NextNode.cpp"
+"G:\vc6版本\ChiefScriptNode\NodeData.cpp"
+"G:\vc6版本\ChiefScriptNode\NodeObj.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP240.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP241.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/ChiefScriptNode.pdb" /machine:I386 /def:".\ChiefScriptNode.def" /out:"../bin/ChiefScriptNode.dll" /implib:"../bin/ChiefScriptNode.lib" 
+".\Release\CFDocument.obj"
+".\Release\CFVariable.obj"
+".\Release\ChiefScriptNode.obj"
+".\Release\LineObj.obj"
+".\Release\NextNode.obj"
+".\Release\NodeData.obj"
+".\Release\NodeObj.obj"
+".\Release\StdAfx.obj"
+".\Release\ChiefScriptNode.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP241.tmp"
+<h3>Output Window</h3>
+Compiling...
+CFDocument.cpp
+CFVariable.cpp
+LineObj.cpp
+NextNode.cpp
+NodeData.cpp
+NodeObj.cpp
+Generating Code...
+Linking...
+   Creating library ../bin/ChiefScriptNode.lib and object ../bin/ChiefScriptNode.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP245.bat" with contents
+[
+@echo off
+copy                                 NodeObj.h                                   ..\include\
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP245.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+ChiefScriptNode.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

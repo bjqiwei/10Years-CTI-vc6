@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CifCommServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/CifCommServer.res" /d "NDEBUG" /d "_AFXDLL" "G:\vc6版本\CifCommServer\CifCommServer.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CifCommServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\vc6版本\CifCommServer\ActiveMsgForm.cpp"
+"G:\vc6版本\CifCommServer\CFListBox.cpp"
+"G:\vc6版本\CifCommServer\CifCommServer.cpp"
+"G:\vc6版本\CifCommServer\CifCommServerDoc.cpp"
+"G:\vc6版本\CifCommServer\CifCommServerView.cpp"
+"G:\vc6版本\CifCommServer\MainFrm.cpp"
+"G:\vc6版本\CifCommServer\SelectTreeForm.cpp"
+"G:\vc6版本\CifCommServer\SysMsgForm.cpp"
+"G:\vc6版本\CifCommServer\SystemErrorLogFile.cpp"
+"G:\vc6版本\CifCommServer\Trayicon.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/CifCommServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\vc6版本\CifCommServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFA.tmp" with contents
+[
+../bin/CFComm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/CifCommServer.pdb" /machine:I386 /out:"../bin/CifCommServer.exe" 
+".\Release\ActiveMsgForm.obj"
+".\Release\CFListBox.obj"
+".\Release\CifCommServer.obj"
+".\Release\CifCommServerDoc.obj"
+".\Release\CifCommServerView.obj"
+".\Release\MainFrm.obj"
+".\Release\SelectTreeForm.obj"
+".\Release\StdAfx.obj"
+".\Release\SysMsgForm.obj"
+".\Release\SystemErrorLogFile.obj"
+".\Release\Trayicon.obj"
+".\Release\CifCommServer.res"
+"\vc6版本\bin\CFComm.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ActiveMsgForm.cpp
+CFListBox.cpp
+CifCommServer.cpp
+CifCommServerDoc.cpp
+CifCommServerView.cpp
+MainFrm.cpp
+SelectTreeForm.cpp
+SysMsgForm.cpp
+SystemErrorLogFile.cpp
+Trayicon.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CifCommServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

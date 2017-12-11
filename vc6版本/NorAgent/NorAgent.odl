@@ -1,0 +1,133 @@
+// NorAgent.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (NorAgent.tlb) that will become a resource in
+// FormX.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(AFDC1584-F993-11D1-96ED-F05F03C10000), version(4.0),
+  helpfile("NorAgent.hlp"),
+  helpstring("NorAgent ActiveX Control"),
+  control ]
+library FORMXLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primary dispatch interface for CFormXCtrl
+
+	[ uuid(AFDC1585-F993-11D1-96ED-F05F03C10000),
+	  helpstring("Dispatch interface for NorAgent Control"), hidden ]
+	dispinterface _NorAgent
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CFormXCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CFormXCtrl)
+			[id(1)] boolean AgentToAgentData(BSTR AimDN, BSTR Buf);
+			[id(2)] boolean AnswerCall();
+			[id(3)] boolean CallAgent(BSTR AimDN);
+			[id(4)] boolean CancelTransfer();
+			[id(5)] boolean ConferCall(short nType, BSTR Tel);
+			[id(6)] boolean DisMonitor();
+			[id(7)] boolean GetActiveCall(short nType, BSTR Tel);
+			[id(8)] boolean HangUp();
+			[id(9)] boolean Hold();
+			[id(10)] boolean JoinConference(BSTR AimDN);
+			[id(11)] boolean Monitor(BSTR AimDN);
+			[id(12)] boolean OutCall(BSTR Tel);
+			[id(13)] boolean PickupHold(short nType, BSTR CallerID);
+			[id(14)] boolean TransferToAgent(BSTR AimDN);
+			[id(15)] boolean TransferToIVR();
+			[id(16)] boolean TransferToOut(BSTR Tel);
+			[id(17)] boolean InitNorAgent(short nDN, BSTR IP, short nPort);
+			[id(18)] void ExitNorAgent();
+			[id(19)] boolean LogIn(BSTR AgentID, BSTR PWD, short Group);
+			[id(20)] boolean LogOut(BSTR PWD);
+			[id(21)] boolean Ready();
+			[id(22)] boolean NotReady();
+			[id(23)] boolean SetBusy();
+			[id(24)] boolean SetInServer();
+			//}}AFX_ODL_METHOD
+	};
+
+	//  Event dispatch interface for CFormXCtrl
+
+	[ uuid(AFDC1586-F993-11D1-96ED-F05F03C10000),
+	  helpstring("Event interface for NorAgent Control") ]
+	dispinterface _NorAgentEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CFormXCtrl)
+			[id(1)] void OnHangup();
+			[id(2)] void OnNetAbend();
+			[id(3)] void OnOffHook();
+			[id(4)] void OnReciveAgentData(short nDN, BSTR buf);
+			[id(5)] void OnResponesMakeCall(BOOL bResult);
+			[id(6)] void OnResponseAnswerCall(BOOL bResult);
+			[id(7)] void OnResponseCancelTransfer(BOOL bResult);
+			[id(8)] void OnResponseConferCall(BOOL bResult);
+			[id(9)] void OnResponseDisMonitor(BOOL bResult);
+			[id(10)] void OnResponseHold(BOOL bResult);
+			[id(11)] void OnResponseJoinConfer(BOOL bResult);
+			[id(12)] void OnResponseLogin(BOOL bResult);
+			[id(13)] void OnResponseMonitor(BOOL bResult);
+			[id(14)] void OnResponseTransfer(BOOL bResult);
+			[id(15)] void OnRinging(BSTR CallerID, BSTR CalledID);
+			[id(16)] void OnResponsePickUpHold(BOOL bResult, BSTR CallerID, BSTR CalledID);
+			[id(17)] void OnResponseLogOut(BOOL bResult);
+			[id(18)] void OnInitNorAgentResponse(BOOL bResult);
+			[id(19)] void OnResponseReady(BOOL bResult);
+			[id(20)] void OnResponseNotReady(BOOL bResult);
+			[id(21)] void OnClickMonitor();
+			[id(22)] void OnClickReady();
+			[id(23)] void OnClickHold();
+			[id(24)] void OnClickJoinConf();
+			[id(25)] void OnClickConfCall();
+			[id(26)] void OnClickLogin();
+			[id(27)] void OnClickTransfer();
+			[id(28)] void OnClickGetActiveCall();
+			[id(29)] void OnClickSendDate();
+			[id(30)] void OnClickHangUp();
+			[id(31)] void OnClickOutCall();
+			[id(32)] void OnClickLogOut();
+			[id(33)] void OnClickNotReady();
+			[id(34)] void OnClickDisMonitor();
+			[id(35)] void OnClickCancelTransfer();
+			[id(36)] void OnClickPickUpHold();
+			[id(37)] void OnResponseGetActive(BOOL bResult, BSTR CallerID, BSTR CalledID);
+			[id(38)] void OnClickRequestConf();
+			[id(39)] void OnResponseSetBusy(BOOL bResult);
+			[id(40)] void OnResponseSetInServer(BOOL bResult);
+			[id(41)] void OnClickSetBusy();
+			[id(42)] void OnClickInServer();
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CFormXCtrl
+
+	[ uuid(AFDC1587-F993-11D1-96ED-F05F03C10000),
+	  helpstring("NorAgent Control"), control ]
+	coclass NorAgent
+	{
+		[default] dispinterface _NorAgent;
+		[default, source] dispinterface _NorAgentEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

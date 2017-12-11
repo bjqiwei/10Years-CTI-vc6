@@ -1,0 +1,226 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_FORMX DIALOG DISCARDABLE  0, 0, 250, 62
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_FORMX DIALOG DISCARDABLE  0, 0, 623, 15
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "登陆",IDC_BTN_LOGIN,0,0,51,15,BS_VCENTER
+    PUSHBUTTON      "挂机",IDC_BTN_HANGUP,156,0,51,15,BS_VCENTER
+    PUSHBUTTON      "保持",IDC_BTN_HOLD,208,0,51,15,BS_VCENTER
+    PUSHBUTTON      "就绪",IDC_BTN_READY,52,0,51,15,BS_VCENTER
+    PUSHBUTTON      "转移",IDC_BTN_TRANSFER,260,0,51,15,BS_VCENTER
+    PUSHBUTTON      "外拨",IDC_BTN_OUTCALL,312,0,51,15
+    PUSHBUTTON      "监听",IDC_BTN_MONITOR,364,0,51,15
+    PUSHBUTTON      "获取",IDC_BTN_GETACTIVECALL,416,0,51,15
+    PUSHBUTTON      "召开会议",IDC_BTN_REQUESTCONF,468,0,51,15
+    PUSHBUTTON      "参加会议",IDC_BTN_JOINCONF,520,0,51,15
+    PUSHBUTTON      "交流",IDC_BTN_SENDDATA,571,0,51,15
+    PUSHBUTTON      "置闲",IDC_BTN_SETBUSY,104,0,51,15,BS_VCENTER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_FORMX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_LOGIN          ICON    DISCARDABLE     "icon1.ico"
+IDI_ICON_LOGOUT         ICON    DISCARDABLE     "ico00001.ico"
+IDI_ICON_HANGUP         ICON    DISCARDABLE     "ico00003.ico"
+IDI_ICON_TRANSFER       ICON    DISCARDABLE     "ico00002.ico"
+IDI_ICON_TRANSFER_CANCEL ICON    DISCARDABLE     "ico00004.ico"
+IDI_ICON_PICKUPHOLD     ICON    DISCARDABLE     "ico00005.ico"
+IDI_ICON_MAKECALL       ICON    DISCARDABLE     "icon2.ico"
+IDI_ICON_READY          ICON    DISCARDABLE     "ico00006.ico"
+IDI_ICON_NOTREADY       ICON    DISCARDABLE     "ico00007.ico"
+IDI_ICON_HOLD           ICON    DISCARDABLE     "ico00008.ico"
+IDI_ICON_MONITOR        ICON    DISCARDABLE     "ico00009.ico"
+IDI_ICON_DISMONITOR     ICON    DISCARDABLE     "ico00010.ico"
+IDI_ICON_AFTERTALK      ICON    DISCARDABLE     "ico00011.ico"
+IDI_ICON_SENDDATA       ICON    DISCARDABLE     "ico00012.ico"
+IDI_ICON_JOINCONF       ICON    DISCARDABLE     "ico00013.ico"
+IDI_ICON_REQUESTCONF    ICON    DISCARDABLE     "ico00014.ico"
+IDI_ICON_GETACTIVECALL  ICON    DISCARDABLE     "ico00015.ico"
+IDI_ICON_SETBUSY        ICON    DISCARDABLE     "ico00016.ico"
+IDI_ICON_INSERVER       ICON    DISCARDABLE     "ico00017.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,0,1
+ PRODUCTVERSION 4,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "NorthMarch Corporation\0"
+            VALUE "FileDescription", "NorAgent ActiveX Control\0"
+            VALUE "FileVersion", "4, 0, 0, 1\0"
+            VALUE "InternalName", "NORAGENT\0"
+            VALUE "LegalCopyright", "Copyright (C) ? NorthMarch Corporation\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OLESelfRegister", "\0"
+            VALUE "OriginalFilename", "NorAgent.OCX\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NorAgent ActiveX Control\0"
+            VALUE "ProductVersion", "4, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "1 TYPELIB ""NorAgent.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_FORMX               BITMAP  DISCARDABLE     "FormXCtl.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FORMX               "NorAgent Control"
+    IDS_FORMX_PPG           "NorAgent Property Page"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FORMX_PPG_CAPTION   "General"
+    IDS_STR_LOGIN           "登陆"
+    IDS_STR_LOGIN_EN        "Login"
+    IDS_STR_LOGOUT          "退出"
+    IDS_STR_LOGOUT_EN       "Logout"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "NorAgent.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,7 @@
+; ChiefScriptNode.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ChiefScriptNode"
+DESCRIPTION  'ChiefScriptNode Windows Dynamic Link Library'
+
+EXPORTS
+

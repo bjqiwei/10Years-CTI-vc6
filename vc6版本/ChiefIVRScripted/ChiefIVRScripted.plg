@@ -1,0 +1,331 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChiefTabCtrlBar - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ChiefTabCtrlBar.res" /d "NDEBUG" /d "_AFXDLL" "D:\程序文件\vc6版本\ChiefTabCtrlBar\ChiefTabCtrlBar.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP76.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ChiefTabCtrlBar.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefTabCtrlBar\CFButton.cpp"
+"D:\程序文件\vc6版本\ChiefTabCtrlBar\CFControlBar.cpp"
+"D:\程序文件\vc6版本\ChiefTabCtrlBar\CFTabCtrlBar.cpp"
+"D:\程序文件\vc6版本\ChiefTabCtrlBar\ChiefTabCtrlBar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP76.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP77.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/ChiefTabCtrlBar.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefTabCtrlBar\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP77.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP78.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/ChiefTabCtrlBar.pdb" /machine:I386 /def:".\ChiefTabCtrlBar.def" /out:"../bin/ChiefTabCtrlBar.dll" /implib:"../bin/ChiefTabCtrlBar.lib" 
+".\Release\CFButton.obj"
+".\Release\CFControlBar.obj"
+".\Release\CFTabCtrlBar.obj"
+".\Release\ChiefTabCtrlBar.obj"
+".\Release\StdAfx.obj"
+".\Release\ChiefTabCtrlBar.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP78.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CFButton.cpp
+CFControlBar.cpp
+CFTabCtrlBar.cpp
+ChiefTabCtrlBar.cpp
+Generating Code...
+Linking...
+   Creating library ../bin/ChiefTabCtrlBar.lib and object ../bin/ChiefTabCtrlBar.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.bat" with contents
+[
+@echo off
+copy            CFButton.h           ..\include\
+copy            CFControlBar.h            ..\include\
+copy            CFTabCtrlBar.h           ..\include\
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7C.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+<h3>
+--------------------Configuration: ChiefIVRScripted - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ChiefIVRScripted.res" /d "NDEBUG" /d "_AFXDLL" "D:\程序文件\vc6版本\ChiefIVRScripted\ChiefIVRScripted.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ChiefIVRScripted.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefIVRScripted\AddActionDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\AddEventDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\AddNewVariable.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\AddNormalVariable.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\AddToTemplateDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\BBBrowseSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CallHoldProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CallLogRequestPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CallRecordProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CallTransferCheckPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CcCallAgentPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CcTransferPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ChangeVoicePage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CheckBuildFormView.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ChiefIVRScripted.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ChildFrm.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CntrItem.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CompareProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConferBuildPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConferDeletePage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConferenceEnterPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConferLeavePageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConferPlayPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConferRecordPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConferRequestPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ConnectNodeDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CustomManageDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\CustomTemplate.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DBClosePageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DLLCallPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DLLLoadPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DLLUnloadPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DrawDoc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DrawView.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DTMFMenuPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DTMFRecivePageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\DTMFSendPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\EditCompareListDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\EventCheckPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ExpressionDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ExpressPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\FaxRecivePageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\FaxSendPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\FileListFormView.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\FindFormView.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\FunctionPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\GeneralPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\GetConferMemberPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\GlobalFunction.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ListBoxExBuddy.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\MainFrm.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\MakeCallCheckPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ModuleProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\MyDocManager.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\MyMultiDocTemplate.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\NewScriptTypeSelect.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\NodeRemarkFormView.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\NodeTreeFormView.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ObjSelectTool.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\OpenDBPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\PlayProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ReleaseCallPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\ReNameDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\RouteCallProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\SelectConstantVarDld.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\SelectVariablesDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\SelfDefinesPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\SetParameterDlg.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\SetVariableProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\SQLExcutePageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\StoreProcPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\SwitchPageSpc.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\TraceProPage.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\VoiceFileFormView.cpp"
+"D:\程序文件\vc6版本\ChiefIVRScripted\WaitCallSpecificProPage.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ChiefIVRScripted.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\程序文件\vc6版本\ChiefIVRScripted\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+../bin/ChiefScriptNode.lib ../bin/ChiefTabCtrlBar.lib htmlhelp.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ChiefIVRScripted.pdb" /machine:I386 /out:"../bin/ChiefIVRScripted.exe" 
+".\Release\AddActionDlg.obj"
+".\Release\AddEventDlg.obj"
+".\Release\AddNewVariable.obj"
+".\Release\AddNormalVariable.obj"
+".\Release\AddToTemplateDlg.obj"
+".\Release\BBBrowseSpc.obj"
+".\Release\CallHoldProPage.obj"
+".\Release\CallLogRequestPageSpc.obj"
+".\Release\CallRecordProPage.obj"
+".\Release\CallTransferCheckPage.obj"
+".\Release\CcCallAgentPage.obj"
+".\Release\CcTransferPage.obj"
+".\Release\ChangeVoicePage.obj"
+".\Release\CheckBuildFormView.obj"
+".\Release\ChiefIVRScripted.obj"
+".\Release\ChildFrm.obj"
+".\Release\CntrItem.obj"
+".\Release\CompareProPage.obj"
+".\Release\ConferBuildPage.obj"
+".\Release\ConferDeletePage.obj"
+".\Release\ConferenceEnterPageSpc.obj"
+".\Release\ConferLeavePageSpc.obj"
+".\Release\ConferPlayPage.obj"
+".\Release\ConferRecordPage.obj"
+".\Release\ConferRequestPage.obj"
+".\Release\ConnectNodeDlg.obj"
+".\Release\CustomManageDlg.obj"
+".\Release\CustomTemplate.obj"
+".\Release\DBClosePageSpc.obj"
+".\Release\DLLCallPageSpc.obj"
+".\Release\DLLLoadPageSpc.obj"
+".\Release\DLLUnloadPageSpc.obj"
+".\Release\DrawDoc.obj"
+".\Release\DrawView.obj"
+".\Release\DTMFMenuPageSpc.obj"
+".\Release\DTMFRecivePageSpc.obj"
+".\Release\DTMFSendPageSpc.obj"
+".\Release\EditCompareListDlg.obj"
+".\Release\EventCheckPageSpc.obj"
+".\Release\ExpressionDlg.obj"
+".\Release\ExpressPage.obj"
+".\Release\FaxRecivePageSpc.obj"
+".\Release\FaxSendPageSpc.obj"
+".\Release\FileListFormView.obj"
+".\Release\FindFormView.obj"
+".\Release\FunctionPage.obj"
+".\Release\GeneralPage.obj"
+".\Release\GetConferMemberPage.obj"
+".\Release\GlobalFunction.obj"
+".\Release\ListBoxExBuddy.obj"
+".\Release\MainFrm.obj"
+".\Release\MakeCallCheckPageSpc.obj"
+".\Release\ModuleProPage.obj"
+".\Release\MyDocManager.obj"
+".\Release\MyMultiDocTemplate.obj"
+".\Release\NewScriptTypeSelect.obj"
+".\Release\NodeRemarkFormView.obj"
+".\Release\NodeTreeFormView.obj"
+".\Release\ObjSelectTool.obj"
+".\Release\OpenDBPage.obj"
+".\Release\PlayProPage.obj"
+".\Release\ReleaseCallPage.obj"
+".\Release\ReNameDlg.obj"
+".\Release\RouteCallProPage.obj"
+".\Release\SelectConstantVarDld.obj"
+".\Release\SelectVariablesDlg.obj"
+".\Release\SelfDefinesPage.obj"
+".\Release\SetParameterDlg.obj"
+".\Release\SetVariableProPage.obj"
+".\Release\SQLExcutePageSpc.obj"
+".\Release\StdAfx.obj"
+".\Release\StoreProcPage.obj"
+".\Release\SwitchPageSpc.obj"
+".\Release\TraceProPage.obj"
+".\Release\VoiceFileFormView.obj"
+".\Release\WaitCallSpecificProPage.obj"
+".\Release\ChiefIVRScripted.res"
+"\程序文件\vc6版本\bin\ChiefScriptNode.lib"
+"\程序文件\vc6版本\bin\ChiefTabCtrlBar.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddActionDlg.cpp
+AddEventDlg.cpp
+AddNewVariable.cpp
+AddNormalVariable.cpp
+AddToTemplateDlg.cpp
+BBBrowseSpc.cpp
+CallHoldProPage.cpp
+CallLogRequestPageSpc.cpp
+CallRecordProPage.cpp
+CallTransferCheckPage.cpp
+CcCallAgentPage.cpp
+CcTransferPage.cpp
+ChangeVoicePage.cpp
+CheckBuildFormView.cpp
+ChiefIVRScripted.cpp
+ChildFrm.cpp
+CntrItem.cpp
+CompareProPage.cpp
+ConferBuildPage.cpp
+ConferDeletePage.cpp
+Generating Code...
+Compiling...
+ConferenceEnterPageSpc.cpp
+ConferLeavePageSpc.cpp
+ConferPlayPage.cpp
+ConferRecordPage.cpp
+ConferRequestPage.cpp
+ConnectNodeDlg.cpp
+CustomManageDlg.cpp
+D:\程序文件\vc6版本\ChiefIVRScripted\CustomManageDlg.cpp(114) : warning C4018: '==' : signed/unsigned mismatch
+CustomTemplate.cpp
+DBClosePageSpc.cpp
+DLLCallPageSpc.cpp
+DLLLoadPageSpc.cpp
+DLLUnloadPageSpc.cpp
+DrawDoc.cpp
+DrawView.cpp
+DTMFMenuPageSpc.cpp
+DTMFRecivePageSpc.cpp
+DTMFSendPageSpc.cpp
+EditCompareListDlg.cpp
+EventCheckPageSpc.cpp
+ExpressionDlg.cpp
+Generating Code...
+Compiling...
+ExpressPage.cpp
+FaxRecivePageSpc.cpp
+FaxSendPageSpc.cpp
+FileListFormView.cpp
+FindFormView.cpp
+FunctionPage.cpp
+GeneralPage.cpp
+GetConferMemberPage.cpp
+GlobalFunction.cpp
+ListBoxExBuddy.cpp
+MainFrm.cpp
+MakeCallCheckPageSpc.cpp
+ModuleProPage.cpp
+MyDocManager.cpp
+MyMultiDocTemplate.cpp
+NewScriptTypeSelect.cpp
+NodeRemarkFormView.cpp
+NodeTreeFormView.cpp
+ObjSelectTool.cpp
+OpenDBPage.cpp
+Generating Code...
+Compiling...
+PlayProPage.cpp
+ReleaseCallPage.cpp
+ReNameDlg.cpp
+RouteCallProPage.cpp
+SelectConstantVarDld.cpp
+SelectVariablesDlg.cpp
+SelfDefinesPage.cpp
+SetParameterDlg.cpp
+SetVariableProPage.cpp
+SQLExcutePageSpc.cpp
+StoreProcPage.cpp
+SwitchPageSpc.cpp
+TraceProPage.cpp
+VoiceFileFormView.cpp
+WaitCallSpecificProPage.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ChiefIVRScripted.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

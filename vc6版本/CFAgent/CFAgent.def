@@ -1,0 +1,21 @@
+; CFAgent.def : Declares the module parameters for the DLL.
+
+LIBRARY      "CFAgent"
+DESCRIPTION  'CFAgent Windows Dynamic Link Library'
+
+EXPORTS
+	Agent_InitDLL
+	Agent_SocketConnect
+	Agent_ExitDLL
+	Agent_Reg
+	Agent_ReadMsg
+	Agent_MakeCall
+	Agent_AnswerCall
+	Agent_HangUp
+	Agent_PickupHold
+	Agent_Hold
+	Agent_Transfer
+	Agent_Monitor
+	Agent_BuildConfer
+	Agent_ConferCall
+	Agent_CancelTransfer

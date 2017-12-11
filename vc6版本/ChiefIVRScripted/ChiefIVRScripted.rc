@@ -1,0 +1,2982 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ChiefIVRScripted.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#include ""l.chs\\afxolecl.rc""        // OLE container resources\r\n"
+    "#include ""l.chs\\afxdb.rc""           // Database resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ChiefIVRScripted.ico"
+IDR_CHIEFITYPE          ICON    DISCARDABLE     "res\\DrawDoc.ico"
+IDI_WAITCALL            ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_PLAY_START          ICON    DISCARDABLE     "res\\icon_pla.ico"
+IDI_DIAL_START          ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_RELASECALL          ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_CALLHOLD            ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_TRANSFER_START      ICON    DISCARDABLE     "res\\ico00004.ico"
+IDI_RECORD_START        ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_SETVARIABLE         ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_COMPARE             ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_TREE_ROOT           ICON    DISCARDABLE     "res\\ico00008.ico"
+IDI_START               ICON    DISCARDABLE     "res\\icon3.ico"
+IDI_TRANSFER_CHECK      ICON    DISCARDABLE     "res\\ico00009.ico"
+IDI_RECORD_STOP         ICON    DISCARDABLE     "res\\ico00010.ico"
+IDI_PLAY_CHECK          ICON    DISCARDABLE     "res\\ico00011.ico"
+IDI_DATABASE_CLOASE     ICON    DISCARDABLE     "res\\ico00012.ico"
+IDI_DATABASE_OPEN       ICON    DISCARDABLE     "res\\ico00013.ico"
+IDI_EXCUTE_SQL          ICON    DISCARDABLE     "res\\ico00014.ico"
+IDI_CONFERENCE_ENTER    ICON    DISCARDABLE     "res\\confer.ico"
+IDI_CONFERENCE_LEAVE    ICON    DISCARDABLE     "res\\ico00015.ico"
+IDI_DIAL_CHECK          ICON    DISCARDABLE     "res\\ico00016.ico"
+IDI_VARIABLE_DBCON      ICON    DISCARDABLE     "res\\ico00017.ico"
+IDI_VARIABLE_DLL        ICON    DISCARDABLE     "res\\ico00018.ico"
+IDI_VARIABLE_STR        ICON    DISCARDABLE     "res\\ico00019.ico"
+IDI_VARIABLE_INT        ICON    DISCARDABLE     "res\\variable.ico"
+IDI_VARIABLE_DBREC      ICON    DISCARDABLE     "res\\ico00020.ico"
+IDI_VARIABLE_FLOAT      ICON    DISCARDABLE     "res\\ico00021.ico"
+IDI_DTMF_SEND           ICON    DISCARDABLE     "res\\ico00022.ico"
+IDI_DTMF_RECIVE         ICON    DISCARDABLE     "res\\dtmf_rec.ico"
+IDI_DLL_LOAD            ICON    DISCARDABLE     "res\\ico00023.ico"
+IDI_DLL_CALL            ICON    DISCARDABLE     "res\\ico00024.ico"
+IDI_DLL_UNLOAD          ICON    DISCARDABLE     "res\\ico00025.ico"
+IDI_EVENT_CHECK         ICON    DISCARDABLE     "res\\ico00026.ico"
+IDI_DATABASE_BROWSE     ICON    DISCARDABLE     "res\\dbbrowse.ico"
+IDI_CHECK_ERROR         ICON    DISCARDABLE     "res\\ico00027.ico"
+IDI_CHECK_NODE          ICON    DISCARDABLE     "res\\ico00028.ico"
+IDI_CHECK_WARN          ICON    DISCARDABLE     "res\\ico00029.ico"
+IDI_CHECK_NOTIFY        ICON    DISCARDABLE     "res\\ico00030.ico"
+IDI_DTMF_MENU           ICON    DISCARDABLE     "res\\ico00031.ico"
+IDI_CALLLOGREQUEST      ICON    DISCARDABLE     "res\\begin.ico"
+IDI_NODE_END            ICON    DISCARDABLE     "res\\end.ico"
+IDI_SWITCH              ICON    DISCARDABLE     "res\\ico00032.ico"
+IDI_ANSWER              ICON    DISCARDABLE     "res\\ico00033.ico"
+IDI_FAXRECIVE           ICON    DISCARDABLE     "res\\faxreciv.ico"
+IDI_FAXSEND             ICON    DISCARDABLE     "res\\ico00034.ico"
+IDI_CONFER_BUILD        ICON    DISCARDABLE     "res\\build_co.ico"
+IDI_CONFER_DELETE       ICON    DISCARDABLE     "res\\iidi_con.ico"
+IDI_CONFER_MEMBER       ICON    DISCARDABLE     "res\\ico00036.ico"
+IDI_CONFER_REQUEST      ICON    DISCARDABLE     "res\\confer_r.ico"
+IDI_BLOCK               ICON    DISCARDABLE     "res\\ico00035.ico"
+IDI_ENTER               ICON    DISCARDABLE     "res\\ico00037.ico"
+IDI_RETURN              ICON    DISCARDABLE     "res\\ico00038.ico"
+IDI_STOREDPROC          ICON    DISCARDABLE     "res\\ico00039.ico"
+IDI_CHANGE_VOICE        ICON    DISCARDABLE     "res\\ico00040.ico"
+IDI_ENDCALLEVENT_CHECK  ICON    DISCARDABLE     "res\\endcall_.ico"
+IDI_ENDCALLEVENT_END    ICON    DISCARDABLE     "res\\ico00041.ico"
+IDI_CONFER_PLAY         ICON    DISCARDABLE     "res\\ico00042.ico"
+IDI_CONFER_RECORD       ICON    DISCARDABLE     "res\\ico00043.ico"
+IDI_FUNCTION            ICON    DISCARDABLE     "res\\ico00044.ico"
+IDI_EXPRESS             ICON    DISCARDABLE     "res\\express.ico"
+IDI_GOTO                ICON    DISCARDABLE     "res\\ico00045.ico"
+IDI_TRANSFER_TOCUS      ICON    DISCARDABLE     "res\\ico00046.ico"
+IDI_ROUTECALL           ICON    DISCARDABLE     "res\\ico00047.ico"
+IDI_TRACE_INFO          ICON    DISCARDABLE     "res\\ico00048.ico"
+IDR_MODULE              ICON    DISCARDABLE     "res\\idr_modu.ico"
+IDI_MODULE              ICON    DISCARDABLE     "res\\ico00049.ico"
+IDI_ICON_FILEVIEW       ICON    DISCARDABLE     "res\\ico00050.ico"
+IDI_NORMAL              ICON    DISCARDABLE     "res\\ico00051.ico"
+IDI_MOUDLE_BEGIN        ICON    DISCARDABLE     "res\\ico00052.ico"
+IDI_MOUDLE_END          ICON    DISCARDABLE     "res\\ico00053.ico"
+IDI_CUSTOM_NODE         ICON    DISCARDABLE     "res\\ico00054.ico"
+IDI_CC_CALLAGENT        ICON    DISCARDABLE     "res\\cc.ico"
+IDI_CC_TRANSFER         ICON    DISCARDABLE     "res\\ico00055.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_NODE_TOOLBOX        BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_MONO_DOCKTOOL       BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_IMAGELIST           BITMAP  DISCARDABLE     "res\\imagelis.bmp"
+IDB_IL_TAB              BITMAP  DISCARDABLE     "res\\il_tab.bmp"
+IDB_IB_TAB              BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_BIMAGELIST          BITMAP  DISCARDABLE     "res\\bitmap3.bmp"
+IDR_TOOLBAR_SCRIPT      BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_TOOLBAR_BUILD       BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_LIST_TOOL           BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_START               BITMAP  DISCARDABLE     "res\\Start.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\about2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_TOOLBAR_SCRIPT TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_WAITCALL
+    BUTTON      ID_OPEND_DATABASE
+    BUTTON      ID_SETVARIABLE
+    BUTTON      ID_DLL_LOAD
+    BUTTON      ID_EVENT_CHECK
+    BUTTON      ID_CALLLOGREQUEST
+    BUTTON      ID_BLOCK
+    BUTTON      ID_CUSTOM_NODE
+END
+
+IDR_TOOLBAR_BUILD TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_SCRIPT_CHECK
+    BUTTON      ID_SCRIPT_BUILD
+    SEPARATOR
+    BUTTON      CG_ID_VIEW_WORKSPACE
+    BUTTON      CG_ID_VIEW_OUTPUT
+    SEPARATOR
+    BUTTON      ID_VIEW_TOOLBOX_BAR
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "New(&N)\tCtrl+N",             ID_FILE_NEW
+        MENUITEM "Open(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Print(&R)...",                ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent files",                ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Tools(&T)",                   ID_VIEW_TOOLBAR
+        MENUITEM "Status(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Workspace\tAlt+W",           CG_ID_VIEW_WORKSPACE
+        MENUITEM "&Output\tAlt+O",              CG_ID_VIEW_OUTPUT
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "Help Topics(&H)",             ID_HELP_FINDER
+        MENUITEM "About ChiefIVRScripted(&A)...", ID_APP_ABOUT
+    END
+END
+
+IDR_CHIEFITYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "New(&N)\tCtrl+N",             ID_FILE_NEW
+        MENUITEM "Open(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "Close(&C)",                   ID_FILE_CLOSE
+        MENUITEM "Save(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Save as (&A)...",             ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Print (&P)...\tCtrl+P",       ID_FILE_PRINT
+        MENUITEM "Print View(&V)",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print set(&R)...",            ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent file",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Add Node"
+    BEGIN
+        MENUITEM "No Select",                   ID_NOTSELECT
+        POPUP "Telephone Control"
+        BEGIN
+            MENUITEM "Watt Call",                   ID_WAITCALL
+            MENUITEM "Answer CAll",                 ID_ANSWER
+            MENUITEM "Call Hold",                   ID_CALLHOLD
+            MENUITEM "Release Call",                ID_RELEASECALL
+            MENUITEM "Play",                        ID_START_PLAY
+            MENUITEM "MakeCall",                    ID_CHECK_DIAL
+            MENUITEM "Transfer",                    ID_CHECK_TRANSFER
+            MENUITEM "Record",                      ID_START_RECORD
+            MENUITEM SEPARATOR
+            MENUITEM "Build Conference",            ID_BUILD_CONFERENCE
+            MENUITEM "Delete Conference",           ID_DELETE_CONFERENCE
+            MENUITEM "Enter Conference",            ID_ENTER_CONFERENCE
+            MENUITEM "Leave Conference",            ID_LEAVE_CONFERENCE
+            MENUITEM "Conference Info",             ID_MEMBER_CONFERENCE
+            MENUITEM SEPARATOR
+            MENUITEM "Send DTMF",                   ID_SEND_DTMFCODE
+            MENUITEM "Recive DTMF",                 ID_RECIVE_DTMF
+            MENUITEM "DTMF Menu",                   ID_DTMF_MENU
+            MENUITEM SEPARATOR
+            MENUITEM "FaxRecive",                   ID_FAXRECIVE
+            MENUITEM "FaxSend",                     ID_FAXSEND
+            MENUITEM SEPARATOR
+            MENUITEM "Switch",                      ID_SWITCH
+            MENUITEM "Change Voice",                ID_CHANGE_VOICE
+            MENUITEM "Call Agent",                  ID_CC_CALLAGENT
+        END
+        POPUP "DataBase"
+        BEGIN
+            MENUITEM "Open DataBase",               ID_OPEND_DATABASE
+            MENUITEM "Close Database",              ID_CLOSE_DATABASE
+            MENUITEM "Excute SQL",                  ID_EXCUTE_SQL
+            MENUITEM "Database Browse",             ID_DATABASE_BROWSE
+            MENUITEM "Stored Procedures",           ID_STOREDPROC
+        END
+        POPUP "Variable"
+        BEGIN
+            MENUITEM "Set Variable",                ID_SETVARIABLE
+            MENUITEM "Compre",                      ID_COMPARE
+            MENUITEM "Function",                    ID_FUNCTION
+            MENUITEM "Express",                     ID_EXPRESS
+        END
+        POPUP "DLL Control"
+        BEGIN
+            MENUITEM "DLL Load",                    ID_DLL_LOAD
+            MENUITEM "DLL Call",                    ID_DLL_CALL
+            MENUITEM "DLL UnLoad",                  ID_DLL_UNLOAD
+        END
+        POPUP "Event"
+        BEGIN
+            MENUITEM "EventCheck",                  ID_EVENT_CHECK
+            MENUITEM "End Node",                    ID_NODE_END
+        END
+        POPUP "Call Log"
+        BEGIN
+            MENUITEM "CallLog Request",             ID_CALLLOGREQUEST
+        END
+        POPUP "Block"
+        BEGIN
+            MENUITEM "Block",                       ID_BLOCK
+            MENUITEM "Return",                      ID_RETURN
+            MENUITEM "GoTo",                        ID_GOTO
+            MENUITEM "Trace",                       ID_TRACE_INFO
+            MENUITEM "Module",                      ID_MODULE
+        END
+        POPUP "Custom node"
+        BEGIN
+            MENUITEM "Custom",                      ID_CUSTOM_NODE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Custom Manage",               ID_CUSTOM_MANAGE
+    END
+    POPUP "Script"
+    BEGIN
+        MENUITEM "Check",                       ID_SCRIPT_CHECK
+        MENUITEM "Build",                       ID_SCRIPT_BUILD
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Toolbar(&T)",                 ID_VIEW_TOOLBAR
+        MENUITEM "Status bar(&S)",              ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Workspace\tAlt+W",           CG_ID_VIEW_WORKSPACE
+        MENUITEM "&Output\tAlt+O",              CG_ID_VIEW_OUTPUT
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "Help Topics(&H)",             ID_HELP_FINDER
+        MENUITEM "About NortMarch CIF-Studio (&A)...", ID_APP_ABOUT
+    END
+END
+
+IDR_CHIEFITYPE_CNTR_IP MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "New(&N)\tCtrl+N",             ID_FILE_NEW
+        MENUITEM "Open(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "Close(&C)",                   ID_FILE_CLOSE
+        MENUITEM "Save(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Save as(&A)...",              ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Print(&P)...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "Print view(&V)",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print set(&R)...",            ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent file",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+END
+
+IDR_POP_EDIT MENU DISCARDABLE 
+BEGIN
+    POPUP "Edit(&E)"
+    BEGIN
+        MENUITEM "Copy",                        ID_EDIT_COPY
+        MENUITEM "Paste",                       ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Delete",                      ID_EDIT_DELETE
+        MENUITEM "Rename",                      ID_EDIT_RENAME
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_EDIT_PROPERTIES
+    END
+    POPUP "ConnetLine"
+    BEGIN
+        MENUITEM "Connect",                     ID_CONNECT_CONNECT
+        MENUITEM "Disconnect",                  ID_CONNECT_DISCONNECT
+    END
+    POPUP "ADD Variable"
+    BEGIN
+        MENUITEM "ADD Normal Variable",         ID_NORMAL_VARIABLE
+        MENUITEM "ADD Database Variable",       ID_DATABASE_VARIABLE
+        MENUITEM "ADD Dll Handle",              ID_DLL_HADLE
+    END
+    POPUP "Edit2"
+    BEGIN
+        MENUITEM "Copy",                        ID_EDIT_COPY
+        MENUITEM "Paste",                       ID_EDIT_PASTE
+    END
+    POPUP "Edit3"
+    BEGIN
+        MENUITEM "Variable",                    ID_SELECT_VAR
+        MENUITEM "Constant",                    ID_SELECT_CONSTANT
+        POPUP "Function"
+        BEGIN
+            POPUP "String"
+            BEGIN
+                MENUITEM "Left",                        ID_FUNCTION_STR_LEFT
+                MENUITEM "Len",                         ID_FUNCTION_STR_LEN
+                MENUITEM "Mid",                         ID_FUNCTION_STR_MID
+                MENUITEM "Right",                       ID_FUNCTION_STR_RIGHT
+
+            END
+            POPUP "System Function"
+            BEGIN
+                MENUITEM "GetHoldChnl",                 ID_FUNCTION_SYS_GETHOLDCHNL
+
+                MENUITEM "AgentIsFree",                 ID_FUNCTION_SYS_AGENTISFREE
+
+                MENUITEM "GetFreeAgent",                ID_FUNCTION_SYS_GETFREEAGENT
+
+                MENUITEM "GetLinkChnlVar",              ID_FUNCTION_SYS_GETLINKVAR
+
+                MENUITEM "GetLinkChnlType",             ID_FUNCTION_SYS_GETLINKCHTYPE
+
+            END
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "File Name.......",            ID_SELECT_FILENAME
+        MENUITEM "File Path.......",            ID_SELECT_FILEPATH
+        MENUITEM "Folder.......",               ID_SELECT_FOLDER
+    END
+    POPUP "SQL"
+    BEGIN
+        POPUP "Delete"
+        BEGIN
+            MENUITEM "DELETE * FROM <table> WHERE <Condition>", 
+                                                    ID_SQL_DELETE1
+        END
+        POPUP "Insert"
+        BEGIN
+            MENUITEM "INSERT INTO <table> (<fields>) VALUES (<values>)", 
+                                                    ID_SQL_INSERT1
+            MENUITEM "INSERT INTO <table1> SELECT <fields> FROM <table2>", 
+                                                    ID_SQL_INSERT2
+        END
+        POPUP "Update"
+        BEGIN
+            MENUITEM "UPDATE <table> SET <new value> WHERE <Condition>", 
+                                                    ID_SQL_UPDATE
+        END
+        POPUP "Select"
+        BEGIN
+            MENUITEM "SELECT <fields> FROM <tables> WHERE <fields> <logical operator> ANY (<sql command>)", 
+                                                    ID_SQL_SELECT1
+            MENUITEM "SELECT <fields> FROM <tables> WHERE <fields> <logical operator> ALL (<sql command>)", 
+                                                    ID_SQL_SELECT2
+            MENUITEM "SELECT <fields> FROM <tables> WHERE <fields> <logical operator> SOME (<sql command>)", 
+                                                    ID_SQL_SELECT3
+        END
+    END
+    POPUP "ConnDBStr"
+    BEGIN
+        MENUITEM "driver={SQL server};server=local;UID=sa;PWD=;database=pubs", 
+                                                ID_DBCONN_STR1
+        MENUITEM "Driver={Microsoft Access Driver (*.mdb)};Dbq=c:omepathydb.mdb;Uid=Admin;Pwd=;", 
+                                                ID_DBCONN_STR2
+        MENUITEM "Driver={Microsoft ODBC for Oracle};Server=OracleServer.world;Uid=myUsername;Pwd=;", 
+                                                ID_DBCONN_STR3
+        MENUITEM "SN=pubs;uid=sa;pwd=;database=pubs", ID_DBCONN_STR4
+    END
+    POPUP "Edit4"
+    BEGIN
+        MENUITEM "Open",                        ID_EDIT_BLOCKOPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Copy",                        ID_EDIT_COPY
+        MENUITEM "Paste",                       ID_EDIT_PASTE
+        MENUITEM "Delete",                      ID_EDIT_DELETE
+        MENUITEM "Rename",                      ID_EDIT_RENAME
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_EDIT_PROPERTIES
+    END
+    POPUP "GoTo"
+    BEGIN
+        MENUITEM "Connect",                     ID_GOTO_CONNECT
+        MENUITEM "DisConnect",                  ID_GOTO_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "Show GoTo ->",                ID_GOTO_SHOWCONN
+        MENUITEM SEPARATOR
+        MENUITEM "Delete",                      ID_EDIT_DELETE
+        MENUITEM "Rename",                      ID_EDIT_RENAME
+    END
+    POPUP "Edit5"
+    BEGIN
+        MENUITEM "SaveTo Template",             ID_EDIT_SAVETOTEMPLATE
+        MENUITEM SEPARATOR
+        MENUITEM "Copy",                        ID_EDIT_COPY
+        MENUITEM "Paste",                       ID_EDIT_PASTE
+        MENUITEM "Delete",                      ID_EDIT_DELETE
+        MENUITEM "Rename",                      ID_EDIT_RENAME
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_EDIT_PROPERTIES
+    END
+END
+
+IDR_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "&Workspace\tAlt+W",           CG_ID_VIEW_WORKSPACE
+        MENUITEM "&Output\tAlt+O",              CG_ID_VIEW_OUTPUT
+        MENUITEM SEPARATOR
+        MENUITEM "Delete Node",                 ID_DELETE_NODE
+        MENUITEM SEPARATOR
+    END
+END
+
+IDR_MODULE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "New(&N)\tCtrl+N",             ID_FILE_NEW
+        MENUITEM "Open(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "Close(&C)",                   ID_FILE_CLOSE
+        MENUITEM "Save(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Save as (&A)...",             ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Print (&P)...\tCtrl+P",       ID_FILE_PRINT
+        MENUITEM "Print View(&V)",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print set(&R)...",            ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent file",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "Add Node"
+    BEGIN
+        MENUITEM "No Select",                   ID_NOTSELECT
+        POPUP "Telephone Control"
+        BEGIN
+            MENUITEM "Watt Call",                   ID_WAITCALL
+            MENUITEM "Answer CAll",                 ID_ANSWER
+            MENUITEM "Call Hold",                   ID_CALLHOLD
+            MENUITEM "Release Call",                ID_RELEASECALL
+            MENUITEM "Play",                        ID_START_PLAY
+            MENUITEM "MakeCall",                    ID_CHECK_DIAL
+            MENUITEM "Transfer",                    ID_CHECK_TRANSFER
+            MENUITEM "Record",                      ID_START_RECORD
+            MENUITEM SEPARATOR
+            MENUITEM "Build Conference",            ID_BUILD_CONFERENCE
+            MENUITEM "Delete Conference",           ID_DELETE_CONFERENCE
+            MENUITEM "Enter Conference",            ID_ENTER_CONFERENCE
+            MENUITEM "Leave Conference",            ID_LEAVE_CONFERENCE
+            MENUITEM "Conference Info",             ID_MEMBER_CONFERENCE
+            MENUITEM SEPARATOR
+            MENUITEM "Send DTMF",                   ID_SEND_DTMFCODE
+            MENUITEM "Recive DTMF",                 ID_RECIVE_DTMF
+            MENUITEM "DTMF Menu",                   ID_DTMF_MENU
+            MENUITEM SEPARATOR
+            MENUITEM "FaxRecive",                   ID_FAXRECIVE
+            MENUITEM "FaxSend",                     ID_FAXSEND
+            MENUITEM SEPARATOR
+            MENUITEM "Switch",                      ID_SWITCH
+            MENUITEM "Change Voice",                ID_CHANGE_VOICE
+            MENUITEM "Call Agent",                  ID_CC_CALLAGENT
+        END
+        POPUP "DataBase"
+        BEGIN
+            MENUITEM "Open DataBase",               ID_OPEND_DATABASE
+            MENUITEM "Close Database",              ID_CLOSE_DATABASE
+            MENUITEM "Excute SQL",                  ID_EXCUTE_SQL
+            MENUITEM "Database Browse",             ID_DATABASE_BROWSE
+            MENUITEM "Stored Procedures",           ID_STOREDPROC
+        END
+        POPUP "Variable"
+        BEGIN
+            MENUITEM "Set Variable",                ID_SETVARIABLE
+            MENUITEM "Compre",                      ID_COMPARE
+            MENUITEM "Function",                    ID_FUNCTION
+            MENUITEM "Express",                     ID_EXPRESS
+        END
+        POPUP "DLL Control"
+        BEGIN
+            MENUITEM "DLL Load",                    ID_DLL_LOAD
+            MENUITEM "DLL Call",                    ID_DLL_CALL
+            MENUITEM "DLL UnLoad",                  ID_DLL_UNLOAD
+        END
+        POPUP "Event"
+        BEGIN
+            MENUITEM "EventCheck",                  ID_EVENT_CHECK
+            MENUITEM "End Node",                    ID_NODE_END
+        END
+        POPUP "Call Log"
+        BEGIN
+            MENUITEM "CallLog Request",             ID_CALLLOGREQUEST
+        END
+        POPUP "Block"
+        BEGIN
+            MENUITEM "Block",                       ID_BLOCK
+            MENUITEM "Return",                      ID_RETURN
+            MENUITEM "GoTo",                        ID_GOTO
+            MENUITEM "Trace",                       ID_TRACE_INFO
+            MENUITEM "MoudleEnd",                   ID_MOUDLE_END
+        END
+        POPUP "Custom"
+        BEGIN
+            MENUITEM "Custom",                      ID_CUSTOM_NODE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Custom Manage",               ID_CUSTOM_MANAGE
+    END
+    POPUP "Module"
+    BEGIN
+        MENUITEM "Set Parameter",               ID_SET_PARAMETER
+    END
+    POPUP "Script"
+    BEGIN
+        MENUITEM "Check",                       ID_SCRIPT_CHECK
+        MENUITEM "Build",                       ID_SCRIPT_BUILD
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Toolbar(&T)",                 ID_VIEW_TOOLBAR
+        MENUITEM "Status bar(&S)",              ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Workspace\tAlt+W",           CG_ID_VIEW_WORKSPACE
+        MENUITEM "&Output\tAlt+O",              CG_ID_VIEW_OUTPUT
+        MENUITEM "&ToolBox\tAIt+T",             ID_VIEW_TOOLBOX_BAR
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "Help Topics(&H)",             ID_HELP_FINDER
+        MENUITEM "About ChiefIVRScripted(&A)...", ID_APP_ABOUT
+    END
+END
+
+IDR_MODULE_CNTR_IP MENU DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "New(&N)\tCtrl+N",             ID_FILE_NEW
+        MENUITEM "Open(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "Close(&C)",                   ID_FILE_CLOSE
+        MENUITEM "Save(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Save as(&A)...",              ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Print(&P)...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "Print view(&V)",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print set(&R)...",            ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent file",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+END
+
+IDR_CHIEFITYPE_CNTR_IP ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_ESCAPE,      ID_CANCEL_EDIT_CNTR,    VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 361, 231
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Cif Script Editor"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         132,IDC_STATIC_WWW,"Static",SS_BITMAP | SS_NOTIFY,7,1,
+                    111,33
+    LTEXT           "NorthMarch CIF-Studio Scrtip Editor",IDC_STATIC,123,3,
+                    141,8
+    LTEXT           "Copyright? NorthMarch Corporation",IDC_STATIC,124,15,
+                    133,8
+    GROUPBOX        "This proudct is licensed to:",IDC_STATIC,7,39,275,58
+    EDITTEXT        IDC_EDIT_LICENCE,17,54,258,36,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,284,6,67,19
+    GROUPBOX        "Additional information:",IDC_STATIC,7,101,275,61
+    EDITTEXT        IDC_EDIT_ADDATION,17,118,258,36,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+    LTEXT           "www.normarch.com www.northmarch.cn",IDC_STATIC,123,27,
+                    137,8
+    EDITTEXT        IDC_EDIT_WARNING,7,165,275,49,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | 
+                    WS_VSCROLL
+END
+
+IDR_MAINFRAME DIALOG DISCARDABLE  0, 0, 160, 16
+STYLE WS_CHILD
+FONT 9, "??"
+BEGIN
+END
+
+IDD_NODETREE_FORMVIEW DIALOG DISCARDABLE  0, 0, 161, 208
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_NODE_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER,15,13,132,175
+END
+
+IDD_NODEREMARK_FORMVIEW DIALOG DISCARDABLE  0, 0, 196, 219
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_RMARK,17,25,140,124,ES_MULTILINE | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_VOXFILE_FORMVIEW DIALOG DISCARDABLE  0, 0, 193, 222
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_VOXFILE_LIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,15,43,145,159
+END
+
+IDD_CHECK_FORMVIEW DIALOG DISCARDABLE  0, 0, 185, 247
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_CHECK_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,19,160,158
+END
+
+IDD_FIND_FORMVIEW DIALOG DISCARDABLE  0, 0, 407, 259
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_FIND_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | 
+                    WS_BORDER | WS_TABSTOP,11,28,224,145
+    LTEXT           "Name:",IDC_STATIC,1,4,21,8
+    EDITTEXT        IDC_EDIT_FINDSTR,24,3,117,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Find",IDC_BUTTON_FINDNODE,274,2,41,14
+    LTEXT           "Find Type:",IDC_STATIC,145,4,41,8
+    COMBOBOX        IDC_FINDTYPE,192,2,77,123,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "",IDC_STATIC_MATCHES,323,4,81,8
+END
+
+IDD_CLASSVIEW_FORMVIEW DIALOG DISCARDABLE  0, 0, 220, 240
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_CLASSVIEW_TREE,"SysTreeView32",
+                    TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | 
+                    WS_BORDER | WS_TABSTOP,22,41,165,147
+END
+
+IDD_PAGE_GENERAL DIALOGEX 0, 0, 281, 280
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "General"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Name",IDC_STATIC,7,25,17,8
+    LTEXT           "Description",IDC_STATIC,7,42,45,8
+    LTEXT           "Control message",IDC_STATIC,7,222,61,8
+    EDITTEXT        IDC_EDIT_NAME,33,24,241,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DESCRIPTION,7,55,267,161,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_EDIT_PANELMSG,7,233,251,40,ES_MULTILINE
+    PUSHBUTTON      ">",IDC_BUTTON_MSG,259,233,15,40,BS_CENTER | BS_VCENTER,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Key",IDC_STATIC,7,8,13,8
+    EDITTEXT        IDC_EDIT_KEY,33,7,241,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_PAGE_WAITCALL_SPC DIALOGEX 0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "The number of rings",IDC_STATIC,7,10,77,8
+    EDITTEXT        IDC_EDIT_RINGS,92,7,181,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Clear DTMF",IDC_CHECK_CDTMF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,26,56,10
+    CONTROL         "Recive Caller ID",IDC_CHECK_RCALLERID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,45,80,10
+    LTEXT           "Saved to",IDC_STATIC,7,63,33,8
+    EDITTEXT        IDC_EDIT_SAVECALLERID,47,62,215,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_SAVECALLERID,263,60,11,17,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Recive Called ID",IDC_CHECK_RCALLEDID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,81,80,10
+    LTEXT           "Saved to",IDC_STATIC,7,98,33,8
+    EDITTEXT        IDC_EDIT_SAVECALLED,47,96,215,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_SAVECALLED,263,93,11,17,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Answer Call",IDC_CHECK_ANSWERCALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,88,27,60,10
+END
+
+IDD_PAGE_SETVARIABLE_SPC DIALOGEX 0, 0, 279, 213
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST_VAR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,27,265,179
+    CONTROL         "Variable List",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,7,265,17,WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_ADDVAR DIALOG DISCARDABLE  0, 0, 214, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Variable"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,169,25,38,13
+    LTEXT           "Name:",IDC_STATIC,11,13,22,8
+    EDITTEXT        IDC_EDIT_NAME,55,12,99,12,ES_AUTOHSCROLL
+    LTEXT           "Type:",IDC_STATIC,11,29,22,8
+    COMBOBOX        IDC_COMBO_TYPE,55,28,99,64,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Values:",IDC_STATIC,11,46,25,8
+    EDITTEXT        IDC_EDIT_VALUES,55,44,99,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,6,154,73
+    PUSHBUTTON      "OK",IDC_BUTTON_OK,168,9,39,12
+    LTEXT           "Description:",IDC_STATIC,11,62,40,8
+    EDITTEXT        IDC_EDIT_DESCRIPT_VAR,55,60,99,12,ES_AUTOHSCROLL
+END
+
+IDD_PAGE_PLAY_SPC DIALOGEX 0, 0, 280, 329
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Clear DTMF",IDC_CHECK_CLEARDTMF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,46,56,10
+    CONTROL         "Recive DTMF",IDC_CHECK_RECIVE_DTMF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,60,60,10
+    LTEXT           "Save DTMF To ",IDC_STATIC,8,75,53,8
+    EDITTEXT        IDC_EDIT_DTMF,64,74,194,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_DTMF,259,73,14,12
+    CONTROL         "List1",IDC_LIST_PLAY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,225,266,79
+    CONTROL         "Play List",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,205,266,19,WS_EX_STATICEDGE
+    CONTROL         "Stop playing when first DTMF Arrive",IDC_CHECK_PLAYSTOP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,92,156,10
+    GROUPBOX        "Play Option",IDC_STATIC,7,110,266,91
+    LTEXT           "File or Express",IDC_STATIC,13,126,61,8
+    EDITTEXT        IDC_EDIT_PLAYFILE,13,139,240,55,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    PUSHBUTTON      ">",IDC_BUTTON_EXPRESS,253,138,15,57
+    LTEXT           "Conference NO",IDC_STATIC,10,30,53,8
+    EDITTEXT        IDC_EDIT_CONFNO,70,28,191,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_CONFNO,260,28,13,14
+    COMBOBOX        IDC_COMBO_PLAYTYPE,145,120,124,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Option",IDC_STATIC,117,122,25,8
+    COMBOBOX        IDC_COMBO_PLAYWAY,70,9,192,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Play Type",IDC_STATIC,9,11,37,8
+END
+
+IDD_PAGE_RELEASECALL_SPC DIALOG DISCARDABLE  0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Save this call detail",IDC_CHECK_SAVE_DETAIL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,6,7,100,10
+END
+
+IDD_PAGE_CALLHOLD DIALOG DISCARDABLE  0, 0, 282, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Play Voice",IDC_CHECK_PLAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,107,36,56,10
+    LTEXT           "Voice file",IDC_STATIC,13,51,41,8
+    EDITTEXT        IDC_EDIT_FILE,15,64,243,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FILE,260,64,11,13
+    CONTROL         "Call hold",IDC_RADIO_HOLD1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,12,21,52,10
+    CONTROL         "Pickup from hold",IDC_RADIO_HOLD2,"Button",
+                    BS_AUTORADIOBUTTON,12,35,80,10
+    GROUPBOX        "Hold Option",IDC_STATIC,7,7,266,77
+END
+
+IDD_PAGE_CALLRECORD DIALOG DISCARDABLE  0, 0, 280, 204
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "File name expression",IDC_STATIC,7,42,81,8
+    LTEXT           "Folder",IDC_STATIC,7,71,25,8
+    EDITTEXT        IDC_EDIT_FILENAME,7,53,255,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FOLDER,7,82,254,13,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FILE,262,53,11,14
+    PUSHBUTTON      ">",IDC_BUTTON_FOLDER,262,82,11,14
+    LTEXT           "File Length( M )",IDC_STATIC,7,105,65,8
+    EDITTEXT        IDC_EDIT_FILELENGTH,75,103,198,14,ES_AUTOHSCROLL
+    LTEXT           "Conference NO.",IDC_STATIC,7,26,57,8
+    EDITTEXT        IDC_EDIT_CONFERNO4,70,24,190,13,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_CONFNO,262,23,11,15
+    LTEXT           "End Record DTMF",IDC_STATIC,7,128,61,8
+    EDITTEXT        IDC_EDIT_RECORDEND_DTMF,77,124,196,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_RECORDTYPE,71,7,188,89,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Record Type",IDC_STATIC,7,11,45,8
+END
+
+IDD_PAGE_COMPARE DIALOGEX 0, 0, 280, 163
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Variable name (or any valid Expression)",IDC_STATIC,7,9,
+                    157,8
+    EDITTEXT        IDC_EDIT_VARIABLE,7,19,252,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_VARIABLE,260,18,13,15
+    CONTROL         "List1",IDC_LIST_VAR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,56,266,100
+    CONTROL         "Compare list",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,36,266,20,WS_EX_STATICEDGE
+END
+
+IDD_EDITCOMPARE_DEFINE_DLG DIALOG DISCARDABLE  0, 0, 204, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Compare define"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,152,7,42,12
+    PUSHBUTTON      "Cancel",IDCANCEL,152,22,42,12
+    LTEXT           "Description",IDC_STATIC,8,8,38,8
+    LTEXT           "Test type",IDC_STATIC,7,24,31,8
+    COMBOBOX        IDC_COMBO_TESTTYPE,47,23,100,81,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_DESCRIPTION,47,7,100,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EXPRESSION,14,44,169,26,ES_MULTILINE | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      ">",IDC_BUTTON1,184,43,9,27
+    GROUPBOX        "Expression",IDC_STATIC,7,35,190,39
+END
+
+IDD_DIALOG_SELSECT_VAR DIALOG DISCARDABLE  0, 0, 212, 162
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Variables"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,164,7,41,12
+    PUSHBUTTON      "Cancel",IDCANCEL,164,21,41,12
+    CONTROL         "List1",IDC_LIST_VAR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,8,9,154,100
+    CONTROL         "Show System variables",IDC_RADIO_SHOW2,"Button",
+                    BS_AUTORADIOBUTTON,7,127,100,10
+    CONTROL         "Show Normal Variables",IDC_RADIO_SHOW1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,7,115,100,10
+    CONTROL         "Show Parameter",IDC_RADIO_SHOW3,"Button",
+                    BS_AUTORADIOBUTTON,7,140,72,10
+END
+
+IDD_DIALOG_ADDNORMALVAR DIALOG DISCARDABLE  0, 0, 178, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Normal Variable"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,59,126,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,116,126,50,14
+    CONTROL         "List1",IDC_LIST_VAR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,13,17,115,102
+    PUSHBUTTON      "New...",IDC_BUTTON_NEW,131,17,29,11
+    PUSHBUTTON      "Edit..",IDC_BUTTON_EDIT,132,33,28,11
+    PUSHBUTTON      "Delete",IDC_BUTTON_DEL,132,48,28,11
+    GROUPBOX        "",IDC_STATIC,7,7,159,118
+END
+
+IDD_PAGE_DBOPEN_SPC DIALOG DISCARDABLE  0, 0, 280, 142
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_DBIDENTIFY,93,17,174,15,ES_AUTOHSCROLL
+    GROUPBOX        "Database",IDC_STATIC,7,7,267,49
+    CONTROL         "Normal Database",IDC_RADIO_TYPE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,20,64,9
+    CONTROL         "System Database",IDC_RADIO_TYPE2,"Button",
+                    BS_AUTORADIOBUTTON,14,37,76,10
+    COMBOBOX        IDC_COMBO_DB,93,36,174,79,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "ConnectionString",IDC_STATIC,7,65,65,8
+    EDITTEXT        IDC_EDIT_CONSTR,7,76,253,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_BUILDCONN,260,75,14,15
+END
+
+IDD_DIALOG_CONNECT DIALOG DISCARDABLE  0, 0, 190, 147
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connect"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,133,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,133,24,50,14
+    CONTROL         "Tree1",IDC_TREE_NODELIST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,7,122,131
+END
+
+IDD_PAGE_MAKECALLCHECK_SPC DIALOG DISCARDABLE  0, 0, 278, 198
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Not Answer after(sec)",IDC_CHECK_NOTANSWER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,48,100,10
+    CONTROL         "HangUp after rings",IDC_CHECK_AFTERRINGS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,64,88,10
+    EDITTEXT        IDC_EDIT_TIME,112,46,160,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_RINGS,112,64,159,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Event Node",IDC_STATIC,6,81,265,111
+    CONTROL         "List1",IDC_LIST_EVENT,"SysListView32",LVS_LIST | 
+                    WS_BORDER | WS_TABSTOP,13,96,252,90
+    LTEXT           "Call phone",IDC_STATIC,8,9,41,8
+    LTEXT           "Dial Prefix ",IDC_STATIC,8,29,49,8
+    EDITTEXT        IDC_EDIT_PREFIX,78,26,194,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_PHONE,78,6,180,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_PHONE,259,5,12,15
+END
+
+IDD_PAGE_EVENTCHECK_SPC DIALOG DISCARDABLE  0, 0, 277, 311
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST_EVENT,"SysListView32",LVS_LIST | 
+                    WS_BORDER | WS_TABSTOP,7,19,263,160
+    LTEXT           "Select  Event Type",IDC_STATIC,7,7,263,10
+    CONTROL         "Clear DTMF",IDC_CHECK_CLEARDTMF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,183,56,10
+    LTEXT           "ElapseTime",IDC_STATIC,7,201,41,8
+    EDITTEXT        IDC_EDIT_ELAPSETIME,49,199,221,14,ES_AUTOHSCROLL
+    CONTROL         "Play",IDC_CHECK_PLAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,19,228,32,10
+    EDITTEXT        IDC_EDIT_PLAYFILE,39,260,213,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_PLAYFILE,254,258,11,15
+    LTEXT           "Stop Play DTMF",IDC_STATIC,14,280,57,8
+    EDITTEXT        IDC_EDIT_SSPLAY_DTMF,78,278,27,14,ES_AUTOHSCROLL
+    LTEXT           "Play Type",IDC_STATIC,17,244,37,8
+    COMBOBOX        IDC_COMBO_PLAYTYPE,61,243,203,77,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "File",IDC_STATIC,16,261,17,8
+    GROUPBOX        "Play Option",IDC_STATIC,7,215,263,86
+END
+
+IDD_PAGE_TRANSFER_CHECK DIALOG DISCARDABLE  0, 0, 279, 350
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Not Answer after(sec)",IDC_CHECK_NOTANSWER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,155,100,10
+    CONTROL         "HangUp after rings",IDC_CHECK_AFTERRINGS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,171,88,10
+    EDITTEXT        IDC_EDIT_TIME,187,153,85,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_RINGS,188,171,84,14,ES_AUTOHSCROLL
+    GROUPBOX        "Wait Option",IDC_STATIC,7,191,265,65
+    CONTROL         "Not Tone",IDC_RADIO_WAITOPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,205,44,10
+    CONTROL         "Play File",IDC_RADIO_WAITOPTION2,"Button",
+                    BS_AUTORADIOBUTTON,14,220,52,10
+    EDITTEXT        IDC_EDIT_PLAYFILE,16,234,235,15,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_PLAYFILE,254,234,13,15
+    GROUPBOX        "Get Aim Tel,Channel Index or DN",IDC_STATIC,7,81,265,63
+    CONTROL         "Press DTMF",IDC_RADIO_DIALTYPE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,97,56,10
+    CONTROL         "From expression",IDC_RADIO_DIALTYPE2,"Button",
+                    BS_AUTORADIOBUTTON,13,111,76,10
+    EDITTEXT        IDC_EDIT_EXPRESSION2,25,125,231,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_EX,256,124,11,12
+    CONTROL         "Clear DTMF",IDC_CHECK_CLEARDTMF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,163,98,56,10
+    GROUPBOX        "Transfer Aim",IDC_STATIC,7,45,265,33
+    CONTROL         "To Agent",IDC_RADIO_TRANSFERAIM1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,60,48,10
+    CONTROL         "To Customer",IDC_RADIO_TRANSFERAIM2,"Button",
+                    BS_AUTORADIOBUTTON,76,61,60,10
+    CONTROL         "To Fax",IDC_RADIO_TRANSFERAIM3,"Button",
+                    BS_AUTORADIOBUTTON,148,61,40,10
+    GROUPBOX        "Transfer Type",IDC_STATIC,7,7,265,35
+    CONTROL         "Start ",IDC_RADIO_TRANSFERTYPE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,24,48,10
+    CONTROL         "Cancel",IDC_RADIO_TRANSFERTYPE2,"Button",
+                    BS_AUTORADIOBUTTON,68,24,48,10
+    CONTROL         "Complete",IDC_RADIO_TRANSFERTYPE3,"Button",
+                    BS_AUTORADIOBUTTON,128,24,48,10
+    LTEXT           "Cancel Transfer DTMF",IDC_STATIC,7,266,81,8
+    EDITTEXT        IDC_EDIT_CANCELTRANDTMF,95,262,177,16,ES_AUTOHSCROLL
+    CONTROL         "First talk with aim DN ",IDC_CHECK_TALKWITHAIMDN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,300,208,10
+    EDITTEXT        IDC_EDIT_COMPLETEDTMF,110,317,146,12,ES_AUTOHSCROLL
+    LTEXT           "Complete Transfer DTMF",IDC_STATIC,13,319,89,8
+    GROUPBOX        "Before transfer complete Option",IDC_STATIC,7,285,265,
+                    52
+END
+
+IDD_PAGE_CONF_ENTER_SPC DIALOG DISCARDABLE  0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Conference NO.",IDC_STATIC,7,28,57,8
+    EDITTEXT        IDC_EDIT_CONF_NO,70,24,189,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_SELECT,260,24,12,13
+    LTEXT           "Action",IDC_STATIC,7,44,25,8
+    COMBOBOX        IDC_COMBO_ACTION,70,42,202,103,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Channel Index",IDC_STATIC,7,11,53,8
+    EDITTEXT        IDC_EDIT_CHANNELINDEX,70,7,191,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_CHINDEX,260,7,12,13
+END
+
+IDD_SELECT_CONSTANTVAR DIALOG DISCARDABLE  0, 0, 224, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Constant"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,167,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,167,24,50,14
+    CONTROL         "List1",IDC_LIST_VAR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,8,9,154,151
+END
+
+IDD_PAGE_CONF_LEAVE_SPC DIALOG DISCARDABLE  0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Conference NO.",IDC_STATIC,7,32,57,8
+    EDITTEXT        IDC_EDIT_CONF_NO,69,28,192,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_SELECT,262,28,12,13
+    LTEXT           "Channel Index",IDC_STATIC,7,14,53,8
+    EDITTEXT        IDC_EDIT_CHANNELINDEX,70,10,190,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_CHINDEX,261,10,12,13
+END
+
+IDD_PAGE_CLOSEDB DIALOG DISCARDABLE  0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "DataBase",IDC_STATIC,7,10,33,8
+    COMBOBOX        IDC_COMBO_DB,47,7,223,101,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PAGE_SQLEXCUTE_SPC DIALOG DISCARDABLE  0, 0, 278, 208
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "SQL Command Type",IDC_STATIC,7,46,65,8
+    COMBOBOX        IDC_COMBO_CMDTYPE,77,43,194,97,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_SQL,7,59,252,137,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN
+    PUSHBUTTON      ">>",IDC_BUTTON_SELECT,261,59,10,63
+    PUSHBUTTON      ">>",IDC_BUTTON_SQL,261,127,10,68
+    LTEXT           "Database",IDC_STATIC,7,27,33,8
+    COMBOBOX        IDC_COMBO_DB,78,25,194,57,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Recordset Name",IDC_STATIC,7,11,57,8
+    EDITTEXT        IDC_EDIT_RECSETNAME,78,7,194,15,ES_AUTOHSCROLL
+END
+
+IDD_PAGE_DLLLOAD_SPC DIALOG DISCARDABLE  0, 0, 279, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "DLL File",IDC_STATIC,7,9,33,8
+    EDITTEXT        IDC_EDIT_FILE,47,6,211,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HANDLE,87,39,178,13,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_FILE,260,6,10,12
+    GROUPBOX        "Handle",IDC_STATIC,7,25,265,54
+    CONTROL         "Normal Handle",IDC_RADIO_HANDLE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,40,68,10
+    CONTROL         "System Handle",IDC_RADIO_HANDLE2,"Button",
+                    BS_AUTORADIOBUTTON,13,58,68,10
+    COMBOBOX        IDC_COMBO_DLL,87,57,179,64,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_PAGE_DBBROWSE_SPC DIALOGEX 0, 0, 280, 235
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Recordset",IDC_STATIC,7,10,37,8
+    COMBOBOX        IDC_COMBO_BROWTYPE,55,28,218,87,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Browse Type",IDC_STATIC,7,30,45,8
+    CONTROL         "List1",IDC_LIST_FIELDVALUES,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,13,120,253,101
+    COMBOBOX        IDC_COMBO_RECORDSET,55,7,218,81,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Edit Field and variable list",IDC_STATIC,7,49,266,179
+    LTEXT           "FieldName",IDC_STATIC,14,64,37,8
+    EDITTEXT        IDC_EDIT_FIELD,55,61,211,13,ES_AUTOHSCROLL
+    LTEXT           "Variable",IDC_STATIC,13,80,33,8
+    EDITTEXT        IDC_EDIT_VAR,55,79,201,13,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_SELECT,257,78,9,15
+    CONTROL         "Field and Variable",IDC_BUTTON_EDITOP,"Button",
+                    BS_OWNERDRAW | WS_TABSTOP,14,97,253,22,WS_EX_STATICEDGE
+END
+
+IDD_PAGE_DLLUNLOAD DIALOG DISCARDABLE  0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "DLL Handle",IDC_STATIC,7,10,41,8
+    COMBOBOX        IDC_COMBO_DLLHANDLE,57,7,216,91,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PAGE_DLLCALL_SPC DIALOGEX 0, 0, 282, 230
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_DLL,74,7,201,78,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "DLL function name",IDC_STATIC,7,26,69,8
+    EDITTEXT        IDC_EDIT_FUNCTION,7,36,268,14,ES_AUTOHSCROLL
+    CONTROL         "List1",IDC_LIST_PARAMETER,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,13,128,257,89
+    GROUPBOX        "Parameter  list",IDC_STATIC,7,54,268,168
+    LTEXT           "Variable",IDC_STATIC,15,72,33,8
+    EDITTEXT        IDC_EDIT_PARMVARIABLE,76,71,180,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_VAR,257,71,13,12
+    LTEXT           "Parameter Type",IDC_STATIC,14,90,57,8
+    COMBOBOX        IDC_COMBO_TYPE,76,89,196,42,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Parameter",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,13,108,256,19,WS_EX_STATICEDGE
+    LTEXT           "DLL Handle",IDC_STATIC,7,11,41,8
+END
+
+IDD_PAGE_DTMFSEND_SPC DIALOG DISCARDABLE  0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "From Express",IDC_STATIC,7,11,49,8
+    EDITTEXT        IDC_EDIT_EXPRESS,61,7,196,15,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_GET,259,7,14,14
+END
+
+IDD_PAGE_DTMFRECIVE_SPC DIALOG DISCARDABLE  0, 0, 277, 192
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Save to",IDC_STATIC,7,10,29,8
+    EDITTEXT        IDC_EDIT_VAR,43,7,213,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_SAVE,257,7,13,15
+    GROUPBOX        "End condition",IDC_STATIC,7,41,263,76
+    CONTROL         "Count of DTMF",IDC_RADIO_EDN1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,60,68,10
+    CONTROL         "End DTMF",IDC_RADIO_EDN2,"Button",BS_AUTORADIOBUTTON,16,
+                    76,48,10
+    EDITTEXT        IDC_EDIT_COUNT,90,58,174,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_DTMF,90,74,174,13,ES_AUTOHSCROLL
+    CONTROL         "Clear DTMF",IDC_CHECK_CLEARDTMF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,26,56,10
+    LTEXT           "Time Out( s )",IDC_STATIC,18,95,53,8
+    EDITTEXT        IDC_EDIT_TIMEOUT,90,92,174,14,ES_AUTOHSCROLL
+    GROUPBOX        "DTMF Option",IDC_STATIC,7,124,263,55
+    CONTROL         "Recive All DTMF",IDC_DTMF_OPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,144,76,10
+    CONTROL         "Only Number",IDC_DTMF_OPTION2,"Button",
+                    BS_AUTORADIOBUTTON,18,161,76,10
+END
+
+IDD_DIALOG_EXPRESS DIALOG DISCARDABLE  0, 0, 195, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Expression Assistant"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,153,84,33,16
+    PUSHBUTTON      "Cancel",IDCANCEL,153,103,34,16
+    EDITTEXT        IDC_EDIT_EXPRESS,7,7,181,55,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_BUTTON_JIA,7,65,16,15
+    PUSHBUTTON      "-",IDC_BUTTON_JIAN,26,65,16,15
+    PUSHBUTTON      "*",IDC_BUTTON_CHENG,44,65,16,15
+    PUSHBUTTON      "/",IDC_BUTTON_CHU,62,65,16,15
+    PUSHBUTTON      "&&",IDC_BUTTON_STRJIA,80,65,16,15
+    PUSHBUTTON      ">",IDC_BUTTON_DAYU,98,65,16,15
+    PUSHBUTTON      "<",IDC_BUTTON_XIAOYU,116,65,16,15
+    PUSHBUTTON      ">=",IDC_BUTTON_DAYUDENDYU,134,65,16,15
+    PUSHBUTTON      "<=",IDC_BUTTON_XIAOYUDENGYU,152,65,16,15
+    PUSHBUTTON      "==",IDC_BUTTON_DENGYU,171,65,16,15
+    CONTROL         "Tree1",IDC_TREE_SELECT,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    7,83,142,95
+END
+
+IDD_PAGE_DTMFMENU_SPC DIALOG DISCARDABLE  0, 0, 282, 191
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST_EVENT,"SysListView32",LVS_LIST | 
+                    WS_BORDER | WS_TABSTOP,7,36,268,141
+    LTEXT           "Select DTMF Event",IDC_STATIC,7,24,268,10
+    CONTROL         "Clear DTMF",IDC_CHECK_CLEARDTMF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,56,10
+    LTEXT           "TimeOut(S):",IDC_STATIC,95,7,45,8
+    EDITTEXT        IDC_DTMFMNU_TIMEOUT,143,7,67,11,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+END
+
+IDD_PAGE_CALLLOGREQUEST_SPC DIALOG DISCARDABLE  0, 0, 281, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Begin Save Call Log",IDC_RADIO_REQUEST1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,8,7,92,10
+    CONTROL         "End Save Call Log",IDC_RADIO_REQUEST2,"Button",
+                    BS_AUTORADIOBUTTON,8,23,84,10
+END
+
+IDD_SELECT_SYSTEMVAR DIALOG DISCARDABLE  0, 0, 229, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,172,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,172,24,50,14
+    CONTROL         "List1",IDC_LIST_VAR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,8,9,154,151
+END
+
+IDD_PAGE_SWITCH_SPC DIALOG DISCARDABLE  0, 0, 298, 309
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Aim Channel , Agent DN or Customer Tel",IDC_STATIC,7,21,
+                    284,71
+    CONTROL         "Link to self ( Call Agent and Customer can not choose )",
+                    IDC_RADIO_AIMCHTYPE1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,12,35,236,10
+    CONTROL         "From ",IDC_RADIO_AIMCHTYPE2,"Button",BS_AUTORADIOBUTTON,
+                    12,50,36,10
+    CONTROL         "Link to Free Agent ( Only Call Agent  )",
+                    IDC_RADIO_AIMCHTYPE3,"Button",BS_AUTORADIOBUTTON,12,69,
+                    226,13
+    EDITTEXT        IDC_EDIT_AIMCH,71,50,184,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_AIMCH,259,50,13,13
+    LTEXT           "Switch Type",IDC_STATIC,8,5,49,8
+    COMBOBOX        IDC_COMBO_SWITCHTYPE,100,4,191,59,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Wait Option",IDC_STATIC,7,194,284,53
+    EDITTEXT        IDC_EDIT_PLAYFILE,71,225,185,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_FILE,259,224,12,15
+    CONTROL         "Play RingBack Tone",IDC_RADIO_WAITOPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,12,209,88,10
+    CONTROL         "Not Tone",IDC_RADIO_WAITOPTION2,"Button",
+                    BS_AUTORADIOBUTTON,111,209,48,10
+    CONTROL         "PlayFile",IDC_RADIO_WAITOPTION3,"Button",
+                    BS_AUTORADIOBUTTON,12,225,48,11
+    GROUPBOX        "Get free channel  to Call Customer ",IDC_STATIC,7,105,
+                    266,86
+    CONTROL         "Get free channel from all out channel",
+                    IDC_SWITCH_GETFREECH1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,16,119,164,10
+    CONTROL         "Get free channel from the bound of Out channel",
+                    IDC_SWITCH_GETFREECH2,"Button",BS_AUTORADIOBUTTON,15,134,
+                    200,10
+    EDITTEXT        IDC_EDIT_BEGIN_CH2,47,148,147,13,ES_AUTOHSCROLL
+    LTEXT           "Begin:",IDC_STATIC,19,149,25,8
+    PUSHBUTTON      ">>",IDC_BTN_BEGIN_CH,195,148,18,14
+    EDITTEXT        IDC_EDIT_END_CH2,47,169,147,13,ES_AUTOHSCROLL
+    LTEXT           "Begin:",IDC_STATIC,19,170,25,8
+    PUSHBUTTON      ">>",IDC_BTN_END_CH,195,169,18,14
+    LTEXT           "TimeOut(s):",IDC_STATIC,11,257,45,8
+    EDITTEXT        IDC_SWITCH_TIMEOUT,68,257,54,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+END
+
+IDD_PAGE_SENDFAX DIALOG DISCARDABLE  0, 0, 278, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Fax File",IDC_STATIC,7,15,33,8
+    EDITTEXT        IDC_EDIT_FAXFILE,64,13,191,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FAX,258,13,13,14
+    LTEXT           "Folder:",IDC_STATIC,7,33,29,8
+    EDITTEXT        IDC_EDIT_FOLDER,64,31,191,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FAXFOLDER,258,31,13,14
+END
+
+IDD_PAGE_FAXRECIVE DIALOG DISCARDABLE  0, 0, 277, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Fax File",IDC_STATIC,7,11,33,8
+    EDITTEXT        IDC_EDIT_FAXFILE,43,9,213,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FAXFILE,257,9,13,14
+    LTEXT           "Folder:",IDC_STATIC,7,28,29,8
+    EDITTEXT        IDC_EDIT_FOLDER,42,26,214,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FLODER,257,26,13,14
+    EDITTEXT        IDC_EDIT_PAGE,91,44,165,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_PAGENUMBER,257,44,13,14
+    LTEXT           "Save page number to",IDC_STATIC,7,47,77,8
+END
+
+IDD_PAGE_CONFER_BULID DIALOG DISCARDABLE  0, 0, 279, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_CONFERNO,86,35,169,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_VAR,257,35,11,14
+    CONTROL         "System assign",IDC_RADIO_BUILDTYPE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,21,124,10
+    CONTROL         "From express",IDC_RADIO_BUILDTYPE2,"Button",
+                    BS_AUTORADIOBUTTON,13,37,64,10
+    GROUPBOX        "conference NO",IDC_STATIC,7,7,265,70
+    LTEXT           "Max Member",IDC_STATIC,15,57,41,8
+    EDITTEXT        IDC_EDIT_MAXMEMBER,85,52,170,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_MAXMEMBERVAR,257,52,11,14
+END
+
+IDD_PAGE_CONFER_DELETE DIALOG DISCARDABLE  0, 0, 279, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_CONFERNO,86,35,171,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_VAR,258,35,11,14
+    CONTROL         "System assign",IDC_RADIO_DELETETYPE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,13,21,68,10
+    CONTROL         "From express",IDC_RADIO_DELETETYPE2,"Button",
+                    BS_AUTORADIOBUTTON,13,37,64,10
+    GROUPBOX        "conference NO",IDC_STATIC,7,7,265,48
+END
+
+IDD_PPAGE_GETCONFMEMBER DIALOG DISCARDABLE  0, 0, 279, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Conference NO",IDC_STATIC,7,11,53,8
+    LTEXT           "Save Member Num To",IDC_STATIC,7,26,73,8
+    EDITTEXT        IDC_EDIT_CONFERNO,114,7,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_CONFNO,258,7,14,13
+    EDITTEXT        IDC_EDIT_MEMBERCOUNT,114,24,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_CONFMEMBER,258,24,14,13
+    LTEXT           "Save Listen Num To",IDC_STATIC,7,43,73,8
+    EDITTEXT        IDC_EDIT_LISTEN_NUM,114,41,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_LISTEN,258,41,14,13
+    LTEXT           "Save Speaker Num To",IDC_STATIC,7,60,77,8
+    EDITTEXT        IDC_EDIT_SPEAKER,114,58,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_SPEAKER,258,58,14,13
+    LTEXT           "Save Speaking Num To",IDC_STATIC,7,76,81,8
+    EDITTEXT        IDC_EDIT_SPEAKING,114,74,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_SPEAKING,258,74,14,13
+    LTEXT           "Save MaxMember Num To",IDC_STATIC,7,95,85,8
+    EDITTEXT        IDC_EDIT_MAX_MEMBER,114,92,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_MAX_MEMBER,258,92,14,13
+    LTEXT           "Save MaxSpeaker Num To",IDC_STATIC,7,110,89,8
+    EDITTEXT        IDC_EDIT_MAX_SPEAKER,114,107,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_MAX_SPEAKER,258,107,14,13
+    LTEXT           "Save MaxSpeaking Num To",IDC_STATIC,7,126,93,8
+    EDITTEXT        IDC_EDIT_MAX_SPEAKING,114,123,144,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_MAX_SPEAKING,258,123,14,13
+END
+
+IDD_PAGE_CONFER_REQUEST DIALOG DISCARDABLE  0, 0, 283, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Dial Telephone",IDC_STATIC,7,50,57,8
+    EDITTEXT        IDC_EDIT_AIMTEL,77,46,185,13,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_DialTel,264,46,12,13
+    LTEXT           "Action",IDC_STATIC,7,30,25,8
+    COMBOBOX        IDC_COMBO_ACTION,77,29,199,103,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Dilal Type",IDC_STATIC,8,13,41,8
+    COMBOBOX        IDC_COMBO_DIALTYPE,77,12,199,59,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PPAGE_STOREPROC DIALOGEX 0, 0, 282, 273
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Stored Procedures"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Stored Procedures Name",IDC_STATIC,7,29,89,8
+    EDITTEXT        IDC_EDIT_STOREPRONAME,101,27,168,14,ES_AUTOHSCROLL
+    GROUPBOX        "Parameter List",IDC_STATIC,7,97,268,168
+    LTEXT           "Parameter Variable",IDC_STATIC,14,111,73,8
+    EDITTEXT        IDC_EDIT_PARAMETERVALUE,97,109,158,14,ES_AUTOHSCROLL
+    CONTROL         "List1",IDC_LIST_PARAMETER,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,13,147,255,111
+    CONTROL         "Parameter",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,13,127,256,16,WS_EX_STATICEDGE
+    PUSHBUTTON      ">",IDC_BUTTON_PARAMVALUE,257,108,11,14
+    COMBOBOX        IDC_COMBO_DB,101,45,168,57,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Database",IDC_STATIC,7,46,33,8
+    LTEXT           "Recordset Name",IDC_STATIC,7,11,57,8
+    EDITTEXT        IDC_EDIT_RECSETNAME,101,7,168,14,ES_AUTOHSCROLL
+    LTEXT           "Save Return Value To",IDC_STATIC,7,64,81,8
+    EDITTEXT        IDC_EDIT_RETURNVALUE,101,64,156,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_RETURNVALUE,257,63,11,14
+    CONTROL         "Return RecordSet",IDC_CHECK_GETREORDSET,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,81,80,10
+END
+
+IDD_PAGE_CHANGEVOICE DIALOG DISCARDABLE  0, 0, 280, 191
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Change Voice"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Action Type",IDC_STATIC,7,5,266,54
+    CONTROL         "Begin Change Voice",IDC_CHANGEVOICE_TYPE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,17,22,88,10
+    CONTROL         "Change Voice Type",IDC_CHANGEVOICE_TYPE2,"Button",
+                    BS_AUTORADIOBUTTON,17,38,84,10
+END
+
+IDD_PAGE_TRANSFER_START DIALOG DISCARDABLE  0, 0, 277, 80
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Wait Option",IDC_STATIC,7,4,263,65
+    CONTROL         "Not Tone",IDC_RADIO_WAITOPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,18,44,10
+    CONTROL         "Play File",IDC_RADIO_WAITOPTION2,"Button",
+                    BS_AUTORADIOBUTTON,14,33,52,10
+    EDITTEXT        IDC_EDIT_PLAYFILE,16,47,236,15,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_PLAYFILE,254,47,13,15
+END
+
+IDD_PAGE_CONF_PLAY_SPC DIALOG DISCARDABLE  0, 0, 280, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Conference NO.",IDC_STATIC,7,11,57,8
+    EDITTEXT        IDC_EDIT_CONF_NO,69,8,191,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_CONFERNO,261,8,12,13
+    LTEXT           "File Express",IDC_STATIC,7,28,49,8
+    EDITTEXT        IDC_EDIT_FILEEXPRESS,7,41,254,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_FILEEXPRESS,261,41,12,13
+END
+
+IDD_PAGE_CONF_RECORD_SPC DIALOG DISCARDABLE  0, 0, 278, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "File name expression",IDC_STATIC,7,27,81,8
+    LTEXT           "Folder",IDC_STATIC,7,56,25,8
+    EDITTEXT        IDC_EDIT_FILE_EXPRESS,7,38,251,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FOLDER,7,67,252,13,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_FILE,260,38,11,14
+    PUSHBUTTON      ">",IDC_BUTTON_FOLDER,260,66,11,14
+    LTEXT           "File Length( M )",IDC_STATIC,7,90,65,8
+    EDITTEXT        IDC_EDIT_FILELENGTH,75,88,196,14,ES_AUTOHSCROLL
+    LTEXT           "Conference NO.",IDC_STATIC,7,11,57,8
+    EDITTEXT        IDC_EDIT_CONF_NO3,69,8,188,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_CONFERNO,259,8,12,13
+END
+
+IDD_PAGE_FUNCTION DIALOG DISCARDABLE  0, 0, 280, 128
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Save Return Values To",IDC_STATIC,7,80,85,8
+    EDITTEXT        IDC_EDIT_RETURNVALUES,7,92,250,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_RETURN,260,92,13,14
+    LTEXT           "Function",IDC_STATIC,8,8,33,8
+    EDITTEXT        IDC_EDIT_FUNCTION,8,20,249,58,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_WANTRETURN
+    PUSHBUTTON      ">",IDC_BUTTON_FUNCTION,259,20,12,59
+END
+
+IDD_PAGE_EXPRESS DIALOG DISCARDABLE  0, 0, 279, 197
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Save Express Values To",IDC_STATIC,7,144,89,8
+    EDITTEXT        IDC_EDIT_EXPRESS_VALUES,7,157,252,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_EXPRESSVALUES,259,157,13,14
+    LTEXT           "Express",IDC_STATIC,8,8,29,8
+    EDITTEXT        IDC_EDIT_EXPRESS,8,20,251,115,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    PUSHBUTTON      ">",IDC_BUTTON_EXPRESS,260,20,12,115
+    LTEXT           "Note:Only Use Operation(   +  -  *  /  %  )",IDC_STATIC,
+                    7,177,173,8
+END
+
+IDD_DIALOG_RENAME DIALOG DISCARDABLE  0, 0, 253, 57
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rename"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,27,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,196,27,50,14
+    LTEXT           "New Name",IDC_STATIC,7,10,33,8
+    EDITTEXT        IDC_EDIT_NEWNAME,44,8,202,12,ES_AUTOHSCROLL
+END
+
+IDD_PAGE_ROUTECALL DIALOG DISCARDABLE  0, 0, 305, 246
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_BEGIN_CH,47,58,147,13,ES_AUTOHSCROLL
+    GROUPBOX        "The bound of Channel that is  used to route call ",
+                    IDC_STATIC,7,31,291,75
+    LTEXT           "Begin:",IDC_STATIC,19,59,25,8
+    PUSHBUTTON      ">>",IDC_BTN_BEGIN_CH,195,58,18,14
+    EDITTEXT        IDC_EDIT_END_CH,47,79,147,13,ES_AUTOHSCROLL
+    LTEXT           "Begin:",IDC_STATIC,19,80,25,8
+    PUSHBUTTON      ">>",IDC_BTN_END_CH,195,79,18,14
+    EDITTEXT        IDC_EDIT_TELNUM,69,7,114,13,ES_AUTOHSCROLL
+    LTEXT           "Route Call To:",IDC_STATIC,7,7,57,8
+    PUSHBUTTON      ">>",IDC_BTN_TEL,183,7,18,14
+    GROUPBOX        "Wait Option",IDC_STATIC,7,114,291,53
+    EDITTEXT        IDC_EDIT_WAIT_PLAYFILE,71,144,203,12,ES_AUTOHSCROLL
+    CONTROL         "Play RingBack Tone",IDC_ROUTE_WAITOPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,12,128,88,10
+    CONTROL         "Not Tone",IDC_ROUTE_WAITOPTION2,"Button",
+                    BS_AUTORADIOBUTTON,111,128,48,10
+    CONTROL         "PlayFile",IDC_ROUTE_WAITOPTION3,"Button",
+                    BS_AUTORADIOBUTTON,12,144,48,11
+    GROUPBOX        "Connect Option",IDC_STATIC,7,176,291,53
+    EDITTEXT        IDC_EDIT_CONN_PLAYFILE,75,206,199,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BTN_WAITFILE,277,143,18,14
+    PUSHBUTTON      ">>",IDC_BTN_CONNFILE,278,205,18,14
+    CONTROL         "No Tone",IDC_ROUTE_CONNOPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,193,44,13
+    CONTROL         "PlayFile",IDC_ROUTE_CONNOPTION2,"Button",
+                    BS_AUTORADIOBUTTON,15,209,48,10
+END
+
+IDD_PPAGE_CHANGE_SCRIPT DIALOG DISCARDABLE  0, 0, 358, 275
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Property Page"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_PPAGE_TRACE_SPC DIALOG DISCARDABLE  0, 0, 281, 151
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Trace information variable  list",IDC_STATIC,8,8,129,8
+    EDITTEXT        IDC_EDIT_TRACE,8,20,251,115,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    PUSHBUTTON      ">",IDC_BUTTON_TRACE,260,20,12,115
+END
+
+IDD_DIALOG_DOCTYPE DIALOGEX 0, 0, 377, 179
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NorthMarch CIF-Studion IVR  Script Editor"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,325,6,45,14
+    PUSHBUTTON      "Cancel",IDCANCEL,325,25,45,14
+    CONTROL         "List1",IDC_LIST_DOCTYPE,"SysListView32",LVS_SINGLESEL | 
+                    WS_BORDER | WS_TABSTOP,7,91,315,70
+    CONTROL         321,IDC_STATIC,"Static",SS_BITMAP,7,4,315,90,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_PAGE_MODULE DIALOGEX 0, 0, 308, 337
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Parameter list",IDC_STATIC,7,27,287,175
+    LTEXT           "Module File:",IDC_STATIC,7,9,49,8
+    EDITTEXT        IDC_EDIT_MODULE_FILE,60,7,219,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_MODULFILE,282,7,16,13
+    CONTROL         "List1",IDC_LIST_PARAMETER,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,14,83,273,114
+    CONTROL         "Parameter List",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,14,61,273,19,WS_EX_STATICEDGE
+    LTEXT           "Variable:",IDC_STATIC,16,44,37,8
+    EDITTEXT        IDC_EDIT_VAR,61,43,206,13,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_VAR,269,42,17,14
+    GROUPBOX        "Module End List",IDC_STATIC,7,208,286,121
+    CONTROL         "List1",IDC_LIST_MODULEEND,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,14,224,272,96
+END
+
+IDD_MODULE_PARAM DIALOGEX 0, 0, 269, 224
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Parameter"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,212,10,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,212,30,50,14
+    CONTROL         "List1",IDC_LIST_PARAMETER,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,82,249,130
+    CONTROL         "Parameter List",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,60,251,19,WS_EX_STATICEDGE
+    LTEXT           "Name:",IDC_STATIC,11,13,22,8
+    EDITTEXT        IDC_EDIT_NAME,55,12,99,12,ES_AUTOHSCROLL
+    LTEXT           "Description:",IDC_STATIC,11,33,40,8
+    EDITTEXT        IDC_EDIT_DESCRIPT_VAR,55,31,99,12,ES_AUTOHSCROLL
+END
+
+IDD_FILE_FORMVIEW DIALOG DISCARDABLE  0, 0, 234, 295
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tree1",IDC_TREE_FILE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,25,40,155,219
+END
+
+IDD_PAGE_SELFDEFINENODE_SPC DIALOGEX 0, 0, 284, 311
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST_ACTION,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,26,266,127
+    CONTROL         "Action list",IDC_BUTTON_ACTION,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,7,266,18,WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_LIST_EVENT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,178,266,126
+    CONTROL         "Event List",IDC_BUTTON_EVENT,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,7,161,266,17,WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_ADDACTION DIALOG DISCARDABLE  0, 0, 281, 348
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Action"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,161,327,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,220,327,50,14
+    CONTROL         "List1",IDC_LIST_ACTION,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,125,263,198
+    EDITTEXT        IDC_EDIT_EXPRESS,8,7,247,115,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    PUSHBUTTON      ">",IDC_BUTTON_MENU,257,7,13,117
+END
+
+IDD_DIALOG_ADDEVENT DIALOG DISCARDABLE  0, 0, 182, 241
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Event"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,63,220,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,220,50,14
+    CONTROL         "List1",IDC_LIST_EVENT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,7,168,201
+END
+
+IDD_DIALOG_TEMPLATE DIALOG DISCARDABLE  0, 0, 243, 219
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add custom node to template"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,186,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,186,24,50,14
+    LTEXT           "Name",IDC_STATIC,7,11,17,8
+    LTEXT           "icon",IDC_STATIC,7,30,17,8
+    CONTROL         "",IDC_COMBOBOXEX_ICO,"ComboBoxEx32",CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP,33,28,146,123
+    EDITTEXT        IDC_EDIT_NAME,33,9,146,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EXPRESS,7,55,229,153,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+END
+
+IDD_DIALOG_CUSTOM_MANAGE DIALOG DISCARDABLE  0, 0, 279, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Custom Manage"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Update",ID_CUSTOM_UPDATE,222,7,50,14
+    PUSHBUTTON      "Delete",ID_CUSTOM_DELETE,222,24,50,14
+    CONTROL         "List1",IDC_LIST_MANAGE,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,7,208,199
+    DEFPUSHBUTTON   "OK",IDOK,222,41,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,222,57,50,14
+END
+
+IDD_PAGE_CC_CALLAGENT DIALOGEX 0, 0, 295, 330
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_AIMDN,61,7,97,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_AIMDN,159,7,13,13
+    GROUPBOX        "Wait Option",IDC_STATIC,7,27,269,53
+    EDITTEXT        IDC_EDIT_PLAYFILE,71,58,185,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_FILE,259,57,12,15
+    CONTROL         "Play RingBack Tone",IDC_RADIO_WAITOPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,12,42,88,10
+    CONTROL         "Not Tone",IDC_RADIO_WAITOPTION2,"Button",
+                    BS_AUTORADIOBUTTON,111,42,48,10
+    CONTROL         "PlayFile",IDC_RADIO_WAITOPTION3,"Button",
+                    BS_AUTORADIOBUTTON,12,58,48,11
+    LTEXT           "TimeOut(s):",IDC_STATIC,7,85,45,8
+    EDITTEXT        IDC_SWITCH_TIMEOUT,64,85,54,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Aim Agent DN",IDC_STATIC,7,10,49,8
+    GROUPBOX        "Before Talking Option",IDC_STATIC,7,102,271,211
+    CONTROL         "Play",IDC_CHECK_ISPLAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,115,52,10
+    CONTROL         "List1",IDC_LIST_PLAY,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,14,225,254,79
+    CONTROL         "Play List",IDC_BUTTON_EDITOP,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,14,205,255,19,WS_EX_STATICEDGE
+    LTEXT           "File or Express",IDC_STATIC,13,126,61,8
+    EDITTEXT        IDC_EDIT_PLAYFILE_EXPRESS,14,139,240,55,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN
+    PUSHBUTTON      ">",IDC_BUTTON_EXPRESS,253,138,15,57
+    COMBOBOX        IDC_COMBO_PLAYTYPE,145,120,124,96,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Option",IDC_STATIC,117,122,25,8
+END
+
+IDD_PAGE_CC_TRANSFER DIALOG DISCARDABLE  0, 0, 290, 243
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Detail"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "TimeOut",IDC_CHECK_TIMEOUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,65,44,10
+    EDITTEXT        IDC_EDIT_TIME,56,63,214,14,ES_AUTOHSCROLL
+    GROUPBOX        "Wait Option",IDC_STATIC,7,81,265,65
+    CONTROL         "Not Tone",IDC_RADIO_WAITOPTION1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,95,44,10
+    CONTROL         "Play File",IDC_RADIO_WAITOPTION2,"Button",
+                    BS_AUTORADIOBUTTON,14,110,52,10
+    EDITTEXT        IDC_EDIT_PLAYFILE,16,124,235,15,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_PLAYFILE,254,124,13,15
+    EDITTEXT        IDC_EDIT_AIMDN,38,46,223,12,ES_AUTOHSCROLL
+    PUSHBUTTON      ">",IDC_BUTTON_AIMDN,261,45,11,12
+    GROUPBOX        "Transfer Aim Option",IDC_STATIC,7,6,265,33
+    CONTROL         "To Agent",IDC_RADIO_TRANSFERAIM1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,21,48,10
+    CONTROL         "To Customer",IDC_RADIO_TRANSFERAIM2,"Button",
+                    BS_AUTORADIOBUTTON,76,22,60,10
+    LTEXT           "Cancel Transfer DTMF",IDC_STATIC,7,155,81,8
+    EDITTEXT        IDC_EDIT_CANCELTRANDTMF,95,151,177,16,ES_AUTOHSCROLL
+    LTEXT           "Aim DN",IDC_STATIC,7,47,25,8
+    CONTROL         "First talk with aim DN ",IDC_CHECK_TALKWITHAIMDN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,191,208,10
+    EDITTEXT        IDC_EDIT_COMPLETEDTMF,110,208,146,12,ES_AUTOHSCROLL
+    LTEXT           "Complete Transfer DTMF",IDC_STATIC,13,210,89,8
+    GROUPBOX        "Before transfer complete Option",IDC_STATIC,7,176,265,
+                    52
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "警告:1、本计算机程序受著作权法和国际公约的保护，未经授权擅自复制或传播本程序的部分或全部，可能受到严厉的民事及刑事\r\n制裁，并将在法律许可的范围内受到最大可能的起诉。\r\n     2、获得授权使用本程序的公司或个人必须遵守相关协议。\0"
+            VALUE "CompanyName", "版权所有 蒋瑞泽 不得非法复制以及使用 技术支持电话13910016198\0"
+            VALUE "FileDescription", "NorthMarch CIF-Studio Scrtipt Editor\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "NorthMarch CIF-Studio Scrtipt Editor\0"
+            VALUE "LegalCopyright", "版权所有 蒋瑞泽 不得非法复制以及使用 技术支持电话13910016198\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ChiefIVRScripted.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NorthMarch CIF-Studio Scrtipt Editor\0"
+            VALUE "ProductVersion", "3, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_NODETREE_FORMVIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 160
+    END
+
+    IDD_NODEREMARK_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_VOXFILE_FORMVIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 186
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_CHECK_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_FIND_FORMVIEW, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 252
+    END
+
+    IDD_CLASSVIEW_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 233
+    END
+
+    IDD_PAGE_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_PAGE_WAITCALL_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_SETVARIABLE_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_DIALOG_ADDVAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 207
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_PAGE_RELEASECALL_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_CALLRECORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_PAGE_COMPARE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_EDITCOMPARE_DEFINE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOG_SELSECT_VAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_DIALOG_ADDNORMALVAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG_CONNECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_PAGE_MAKECALLCHECK_SPC, DIALOG
+    BEGIN
+        TOPMARGIN, 4
+    END
+
+    IDD_PAGE_EVENTCHECK_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_PAGE_TRANSFER_CHECK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        VERTGUIDE, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 343
+    END
+
+    IDD_PAGE_CONF_ENTER_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_SELECT_CONSTANTVAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_PAGE_CONF_LEAVE_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_SQLEXCUTE_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_PAGE_DBBROWSE_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        VERTGUIDE, 55
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_PAGE_DLLUNLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_DLLCALL_SPC, DIALOG
+    BEGIN
+        VERTGUIDE, 71
+        VERTGUIDE, 74
+    END
+
+    IDD_PAGE_DTMFSEND_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_DTMFRECIVE_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        VERTGUIDE, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_DIALOG_EXPRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_PAGE_DTMFMENU_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_SELECT_SYSTEMVAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_PAGE_SWITCH_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        VERTGUIDE, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 302
+    END
+
+    IDD_PAGE_SENDFAX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_CONFER_BULID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_CONFER_DELETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PPAGE_GETCONFMEMBER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        VERTGUIDE, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_CONFER_REQUEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        VERTGUIDE, 77
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PPAGE_STOREPROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_PAGE_CHANGEVOICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_PAGE_TRANSFER_START, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_PAGE_CONF_PLAY_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_CONF_RECORD_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PAGE_FUNCTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        VERTGUIDE, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_PAGE_EXPRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        VERTGUIDE, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+        HORZGUIDE, 157
+    END
+
+    IDD_DIALOG_RENAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_PAGE_ROUTECALL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_PPAGE_CHANGE_SCRIPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 351
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_PPAGE_TRACE_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_DIALOG_DOCTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 370
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_PAGE_MODULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 329
+    END
+
+    IDD_MODULE_PARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+    END
+
+    IDD_FILE_FORMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 288
+    END
+
+    IDD_PAGE_SELFDEFINENODE_SPC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_DIALOG_ADDACTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 341
+    END
+
+    IDD_DIALOG_ADDEVENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_DIALOG_TEMPLATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 212
+    END
+
+    IDD_DIALOG_CUSTOM_MANAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_PAGE_CC_CALLAGENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 323
+    END
+
+    IDD_PAGE_CC_TRANSFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 283
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DROP                CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_DRAW                CURSOR  DISCARDABLE     "res\\cursor_d.cur"
+IDC_NODROP              CURSOR  DISCARDABLE     "nodrop.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_ADDVAR DLGINIT
+BEGIN
+    IDC_COMBO_TYPE, 0x403, 8, 0
+0x6e49, 0x6574, 0x6567, 0x0072, 
+    IDC_COMBO_TYPE, 0x403, 7, 0
+0x6f44, 0x6275, 0x656c, "\000" 
+    IDC_COMBO_TYPE, 0x403, 7, 0
+0x7453, 0x6972, 0x676e, "\000" 
+    0
+END
+
+IDD_EDITCOMPARE_DEFINE_DLG DLGINIT
+BEGIN
+    IDC_COMBO_TESTTYPE, 0x403, 3, 0
+0x3d3d, "\000" 
+    IDC_COMBO_TESTTYPE, 0x403, 3, 0
+0x3d21, "\000" 
+    IDC_COMBO_TESTTYPE, 0x403, 2, 0
+0x003c, 
+    IDC_COMBO_TESTTYPE, 0x403, 3, 0
+0x3d3c, "\000" 
+    IDC_COMBO_TESTTYPE, 0x403, 2, 0
+0x003e, 
+    IDC_COMBO_TESTTYPE, 0x403, 3, 0
+0x3d3e, "\000" 
+    0
+END
+
+IDD_PAGE_CONF_ENTER_SPC DLGINIT
+BEGIN
+    IDC_COMBO_ACTION, 0x403, 12, 0
+0x7053, 0x6165, 0x4c6b, 0x7369, 0x6574, 0x006e, 
+    IDC_COMBO_ACTION, 0x403, 11, 0
+0x694c, 0x7473, 0x6e65, 0x6e4f, 0x796c, "\000" 
+    IDC_COMBO_ACTION, 0x403, 10, 0
+0x7053, 0x6165, 0x4f6b, 0x6c6e, 0x0079, 
+    0
+END
+
+IDD_PAGE_SQLEXCUTE_SPC DLGINIT
+BEGIN
+    IDC_COMBO_CMDTYPE, 0x403, 7, 0
+0x6553, 0x656c, 0x7463, "\000" 
+    IDC_COMBO_CMDTYPE, 0x403, 7, 0
+0x6e49, 0x6573, 0x7472, "\000" 
+    IDC_COMBO_CMDTYPE, 0x403, 7, 0
+0x6544, 0x656c, 0x6574, "\000" 
+    IDC_COMBO_CMDTYPE, 0x403, 7, 0
+0x7055, 0x6164, 0x6574, "\000" 
+    0
+END
+
+IDD_PAGE_DBBROWSE_SPC DLGINIT
+BEGIN
+    IDC_COMBO_BROWTYPE, 0x403, 6, 0
+0x6946, 0x7372, 0x0074, 
+    IDC_COMBO_BROWTYPE, 0x403, 5, 0
+0x654e, 0x7478, "\000" 
+    IDC_COMBO_BROWTYPE, 0x403, 5, 0
+0x614c, 0x7473, "\000" 
+    IDC_COMBO_BROWTYPE, 0x403, 5, 0
+0x7250, 0x7665, "\000" 
+    IDC_COMBO_BROWTYPE, 0x403, 8, 0
+0x7543, 0x7272, 0x6e65, 0x0074, 
+    0
+END
+
+IDD_PAGE_DLLCALL_SPC DLGINIT
+BEGIN
+    IDC_COMBO_TYPE, 0x403, 7, 0
+0x754f, 0x5074, 0x7475, "\000" 
+    IDC_COMBO_TYPE, 0x403, 6, 0
+0x6e49, 0x7550, 0x0074, 
+    0
+END
+
+IDD_PAGE_DLLLOAD_SPC DLGINIT
+BEGIN
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3523, 0x3a39, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0031, 
+
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3623, 0x3a30, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0032, 
+
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3623, 0x3a31, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0033, 
+
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3623, 0x3a32, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0034, 
+
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3623, 0x3a33, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0035, 
+
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3623, 0x3a34, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0036, 
+
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3623, 0x3a35, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0037, 
+
+    IDC_COMBO_DLL, 0x403, 18, 0
+0x3623, 0x3a36, 0x7953, 0x4473, 0x4c4c, 0x6148, 0x646e, 0x656c, 0x0038, 
+
+    0
+END
+
+IDD_PAGE_DBOPEN_SPC DLGINIT
+BEGIN
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a31, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3165, "\000" 
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a32, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3265, "\000" 
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a33, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3365, "\000" 
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a34, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3465, "\000" 
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a35, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3565, "\000" 
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a36, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3665, "\000" 
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a37, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3765, "\000" 
+    IDC_COMBO_DB, 0x403, 17, 0
+0x3523, 0x3a38, 0x7953, 0x4473, 0x7461, 0x6261, 0x7361, 0x3865, "\000" 
+    0
+END
+
+IDD_PAGE_SWITCH_SPC DLGINIT
+BEGIN
+    IDC_COMBO_SWITCHTYPE, 0x403, 8, 0
+0x6f43, 0x6e6e, 0x6365, 0x0074, 
+    IDC_COMBO_SWITCHTYPE, 0x403, 8, 0
+0x6f4d, 0x696e, 0x6f74, 0x0072, 
+    IDC_COMBO_SWITCHTYPE, 0x403, 6, 0
+0x7053, 0x6165, 0x006b, 
+    IDC_COMBO_SWITCHTYPE, 0x403, 11, 0
+0x6944, 0x6373, 0x6e6f, 0x656e, 0x7463, "\000" 
+    IDC_COMBO_SWITCHTYPE, 0x403, 11, 0
+0x6143, 0x6c6c, 0x4120, 0x6567, 0x746e, "\000" 
+    IDC_COMBO_SWITCHTYPE, 0x403, 14, 0
+0x6143, 0x6c6c, 0x4320, 0x7375, 0x6f74, 0x656d, 0x0072, 
+    0
+END
+
+IDD_FIND_FORMVIEW DLGINIT
+BEGIN
+    IDC_FINDTYPE, 0x403, 10, 0
+0x6f4e, 0x6564, 0x4e20, 0x6d61, 0x0065, 
+    IDC_FINDTYPE, 0x403, 17, 0
+0x6f4e, 0x6564, 0x4420, 0x7365, 0x7263, 0x7069, 0x6974, 0x6e6f, "\000" 
+    0
+END
+
+IDD_PAGE_CONFER_REQUEST DLGINIT
+BEGIN
+    IDC_COMBO_ACTION, 0x403, 12, 0
+0x7053, 0x6165, 0x4c6b, 0x7369, 0x6574, 0x006e, 
+    IDC_COMBO_ACTION, 0x403, 11, 0
+0x694c, 0x7473, 0x6e65, 0x6e4f, 0x796c, "\000" 
+    IDC_COMBO_ACTION, 0x403, 10, 0
+0x7053, 0x6165, 0x4f6b, 0x6c6e, 0x0079, 
+    IDC_COMBO_DIALTYPE, 0x403, 11, 0
+0x6143, 0x6c6c, 0x4120, 0x6567, 0x746e, "\000" 
+    IDC_COMBO_DIALTYPE, 0x403, 14, 0
+0x6143, 0x6c6c, 0x4320, 0x7375, 0x6f74, 0x656d, 0x0072, 
+    0
+END
+
+IDD_PAGE_PLAY_SPC DLGINIT
+BEGIN
+    IDC_COMBO_PLAYTYPE, 0x403, 5, 0
+0x6946, 0x656c, "\000" 
+    IDC_COMBO_PLAYTYPE, 0x403, 7, 0
+0x754e, 0x626d, 0x7265, "\000" 
+    IDC_COMBO_PLAYTYPE, 0x403, 4, 0
+0x5454, 0x0053, 
+    IDC_COMBO_PLAYTYPE, 0x403, 9, 0
+0x6c46, 0x616f, 0x6974, 0x676e, "\000" 
+    IDC_COMBO_PLAYTYPE, 0x403, 5, 0
+0x6144, 0x6574, "\000" 
+    IDC_COMBO_PLAYWAY, 0x403, 12, 0
+0x6f4e, 0x6d72, 0x6c61, 0x5420, 0x7079, 0x0065, 
+    IDC_COMBO_PLAYWAY, 0x403, 16, 0
+0x6f43, 0x666e, 0x7265, 0x6e65, 0x6563, 0x5020, 0x616c, 0x0079, 
+    0
+END
+
+IDD_PAGE_CALLRECORD DLGINIT
+BEGIN
+    IDC_COMBO_RECORDTYPE, 0x403, 7, 0
+0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO_RECORDTYPE, 0x403, 18, 0
+0x6f43, 0x666e, 0x7265, 0x6e65, 0x6563, 0x5220, 0x6365, 0x726f, 0x0064, 
+
+    0
+END
+
+IDD_PAGE_EVENTCHECK_SPC DLGINIT
+BEGIN
+    IDC_COMBO_PLAYTYPE, 0x403, 12, 0
+0x6f4e, 0x6d72, 0x6c61, 0x5020, 0x616c, 0x0079, 
+    IDC_COMBO_PLAYTYPE, 0x403, 16, 0
+0x6f43, 0x666e, 0x7265, 0x6e65, 0x6563, 0x5020, 0x616c, 0x0079, 
+    0
+END
+
+IDD_PAGE_CC_CALLAGENT DLGINIT
+BEGIN
+    IDC_COMBO_PLAYTYPE, 0x403, 5, 0
+0x6946, 0x656c, "\000" 
+    IDC_COMBO_PLAYTYPE, 0x403, 7, 0
+0x754e, 0x626d, 0x7265, "\000" 
+    IDC_COMBO_PLAYTYPE, 0x403, 4, 0
+0x5454, 0x0053, 
+    IDC_COMBO_PLAYTYPE, 0x403, 9, 0
+0x6c46, 0x616f, 0x6974, 0x676e, "\000" 
+    IDC_COMBO_PLAYTYPE, 0x403, 5, 0
+0x6144, 0x6574, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialize  fail"
+    IDP_FAILED_TO_CREATE    "Build object fail"
+    IDP_SOCKETS_INIT_FAILED "Windows socket initialize  fail"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "NorthMarch CIF-Studio Editor"
+    IDR_CHIEFITYPE          "\nNormal\nNormal\nNormal Script (*.ief)\n.ief\nNormal.Script\nNormal Script"
+    IDR_MODULE              "\nModule\nModule\nModule Script (*.nmf)\n.nmf\nModule.Script\nModule Script"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ChiefIVRScripted"
+    AFX_IDS_IDLEMESSAGE     "System is runing"
+    AFX_IDS_HELPMODEMESSAGE "选定一个要得到帮助的对象"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "New Script file\nNew"
+    ID_FILE_OPEN            "Open Script file\nOpen"
+    ID_FILE_CLOSE           "Close Active Document\nClose Document"
+    ID_FILE_SAVE            "Save Active Document\nSave"
+    ID_FILE_SAVE_AS         "Active Document Save as \nSave as"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+    ID_HELP_INDEX           "打开帮助\n帮助主题"
+    ID_HELP_FINDER          "列出帮助主题\n帮助主题"
+    ID_HELP_USING           "显示关于如何使用帮助的指令\n帮助"
+    ID_CONTEXT_HELP         "显示对按钮、菜单和窗口执行单击操作的帮助\n帮助"
+    ID_HELP                 "显示对当前任务或命令的帮助\n帮助"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "为活动文档打开另一个窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "将图标排列在窗口底部\n排列图标"
+    ID_WINDOW_CASCADE       "排列窗口成相互重叠\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_PASTE_LINK      "插入剪贴板内容和一条通向其来源的链接\n粘贴链接"
+    ID_EDIT_PASTE_SPECIAL   "用选项插入剪贴板内容\n选择性粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide ToolBar\nShow or Hide ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide Status\nShow or Hide Status"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_INSERT_NEW       "插入新嵌入的对象\n新对象"
+    ID_OLE_EDIT_LINKS       "编辑链接对象\n编辑链接"
+    ID_OLE_EDIT_CONVERT     "将对象转换成不同的类型\n转换对象"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_VERB_FIRST       "激活嵌入或链接的对象"
+    57873                   "激活嵌入或链接的对象"
+    57874                   "激活嵌入或链接的对象"
+    57875                   "激活嵌入或链接的对象"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+    AFX_IDS_MDICHILD        "激活该窗口"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WAITCALL             "Select  Wait Call Tool\nWait Call"
+    ID_START_PLAY           "Select  Play Voice Tool\nPlay Voice"
+    ID_START_DIAL           "Select  Start Dial Tool\nStart Dial"
+    ID_RELEASECALL          "Select  Release Call Tool\nRelease Call"
+    ID_CALLHOLD             "Select  Call Hold Tool\nCall Hold"
+    ID_START_RECORD         "Select  Record Tool\nRecord"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_COMPARE              "Select  Compare Tool\nCompare"
+    ID_SETVARIABLE          "Select  Set Varible Tool\nSet Varible"
+    CG_ID_VIEW_WORKSPACE    "Show or hide Workspace\nToggle Workspace"
+    ID_NOTSELECT            "Select  No Select Tool\nNo Select"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SCRIPT_CHECK         "Check script file\nCheck script file"
+    ID_SCRIPT_BUILD         "Build script file\nBuild  script file"
+    ID_CHECK_DIAL           "Select  MakeCall Tool\nMakeCall"
+    ID_CHECK_TRANSFER       "Select  Transfer Tool\nTransfer"
+    ID_ENTER_CONFERENCE     "Select Enter Conference tool\nEnter Conference"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LEAVE_CONFERENCE     "Select Leave Conference tool\nLeave Conference"
+    ID_OPEND_DATABASE       "Select  Open DataBase Tool\nOpen DataBase"
+    ID_CLOSE_DATABASE       "Select  Close DataBase Tool\nClose  DataBase"
+    ID_EXCUTE_SQL           "Select Excute SQL Tool\nExcute SQL"
+    ID_DLL_LOAD             "Select  DLL Load Tool\nDLL Load"
+    ID_DLL_UNLOAD           "Select  DLL UnLoad Tool\nDLL UnLoad"
+    ID_DLL_CALL             "Select  DLL Call Tool\nDLL Call"
+    ID_SEND_DTMFCODE        "Select  Send DTMF Tool\nSend DTMF"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_RECIVE_DTMF          "Select  Recive DTMF Tool\nRecive DTMF"
+    ID_EVENT_CHECK          "Select  EventCheck Tool\n EventCheck"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    CG_ID_VIEW_OUTPUT       "Show or hide Output\nToggle Output"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DTMF_MENU            "Select  DTMF Menu Tool\nDTMFMenu"
+    ID_CALLLOGREQUEST       "Select  CallLog Request Tool\nCallLog Request"
+    ID_NODE_END             "Select  Node End Tool\nNode END"
+    ID_SWITCH               "Select  Switch Tool\nSwitch"
+    ID_ANSWER               "Select  Answer Call Tool\nAnswer Call"
+    ID_VIEW_TOOLBOX_BAR     "Show or hide ToolBox\nShow or Hide ToolBox"
+    ID_FAXRECIVE            "Select  Fax Recive Tool\nFaxRecive"
+    ID_FAXSEND              "Select  Fax Send Tool\nFaxSend"
+    ID_BUILD_CONFERENCE     "Select Build Conference tool\nBuild Conference"
+    ID_DELETE_CONFERENCE    "Select Delete Conference tool\nDelete Conference"
+    ID_MEMBER_CONFERENCE    "Select Conference Info tool\nConference Info"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DATABASE_BROWSE      "Select  Database Browse Tool\nDatabase Browse"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_REQUEST_CONFERENCE   "Select Conference Call tool\nConference Call"
+    ID_BLOCK                "Select  Block Tool\n Block"
+    ID_RETURN               "Select Return Tool\n Return"
+    ID_STOREDPROC           "Select  Stored Procedures Tool\nStored Procedures"
+    ID_CHANGE_VOICE         "Select  Change Voice Tool\nChange Voice"
+    ID_TRANSFER_START       "Select  Transfer Start Tool\nTransfer Start"
+    ID_CONFERENCE_PLAY      "Select Conference Play tool\nConference Play"
+    ID_CONFERENCE_RECORD    "Select Conference Record tool\nConference Record"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FUNCTION             "Select  Function Tool\nFunction"
+    ID_EXPRESS              "Select  Express Tool\nExpress"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TRACE_INFO           "Select  Trace Tool\n Trace"
+    ID_MODULE               "Select  Module Tool\n Module"
+    ID_MOUDLE_END           "Select  MoudleEnd Tool\n MoudleEnd"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ChiefIVRScripted.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#include "l.chs\afxolecl.rc"        // OLE container resources
+#include "l.chs\afxdb.rc"           // Database resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
